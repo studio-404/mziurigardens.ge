@@ -1,0 +1,105 @@
+@font-face {
+	font-family: 'Roboto_Geo_Arm_Mt';
+	src: url('../fonts/Roboto_Geo_Arm_Mt.eot');
+	src: local('☺'), url('../fonts/Roboto_Geo_Arm_Mt.woff') format('woff'), 
+	url('../fonts/Roboto_Geo_Arm_Mt.ttf') format('truetype'),
+	url('../fonts/Roboto_Geo_Arm_Mt.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto_Geo_Arm_Mt_Bold';
+	src: url('../fonts/Roboto_Geo_Arm_Mt_Bold.eot');
+	src: local('☺'), url('../fonts/Roboto_Geo_Arm_Mt_Bold.woff') format('woff'), 
+	url('../fonts/Roboto_Geo_Arm_Mt_Bold.ttf') format('truetype'), 
+	url('../fonts/Roboto_Geo_Arm_Mt_Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} 
+@font-face {
+	font-family: 'RobotoNusx';
+	src: url('../fonts/Roboto_Nusx.eot');
+	src: local('☺'), url('../fonts/Roboto _Nusx.woff') format('woff'), 
+	url('../fonts/Roboto _Nusx.ttf') format('truetype'), 
+	url('../fonts/Roboto _Nusx.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoNusxItalic';
+	src: url('../fonts/Roboto _Nusx Italic.eot');
+	src: local('☺'), url('../fonts/Roboto _Nusx Italic.woff') format('woff'), 
+	url('../fonts/Roboto _Nusx Italic.ttf') format('truetype'), 
+	url('../fonts/Roboto _Nusx Italic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoNusxBold';
+	src: url('../fonts/Roboto _Nusx Bold.eot');
+	src: local('☺'), url('../fonts/Roboto _Nusx Bold.woff') format('woff'), 
+	url('../fonts/Roboto _Nusx Bold.ttf') format('truetype'), 
+	url('../fonts/Roboto _Nusx Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoNusxBoldItalic';
+	src: url('../fonts/Roboto _Nusx Bold Italic.eot');
+	src: local('☺'), url('../fonts/Roboto _Nusx Bold Italic.woff') format('woff'), 
+	url('../fonts/Roboto _Nusx Bold Italic.ttf') format('truetype'), 
+	url('../fonts/Roboto _Nusx Bold Italic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} 
+@font-face {
+	font-family: 'MontserratLight';
+	src: url('../fonts/Montserrat-Light.eot');
+	src: local('☺'), url('../fonts/Montserrat-Light.woff') format('woff'), 
+	url('../fonts/Montserrat-Light.ttf') format('truetype'), 
+	url('../fonts/Montserrat-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MontserratBold';
+	src: url('../fonts/Montserrat-Bold.eot');
+	src: local('☺'), url('../fonts/Montserrat-Bold.woff') format('woff'),
+	url('../fonts/Montserrat-Bold.ttf') format('truetype'), 
+	url('../fonts/Montserrat-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MontserratHairline';
+	src: url('../fonts/Montserrat-Hairline.eot');
+	src: local('☺'), url('../fonts/Montserrat-Hairline.woff') format('woff'), 
+	url('../fonts/Montserrat-Hairline.ttf') format('truetype'), 
+	url('../fonts/Montserrat-Hairline.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+ @font-face {
+	font-family: 'MontserratRegular';
+	src: url('../fonts/Montserrat-Regular.eot');
+	src: local('☺'), url('../fonts/Montserrat-Regular.woff') format('woff'), 
+	url('../fonts/Montserrat-Regular.ttf') format('truetype'), 
+	url('../fonts/Montserrat-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MontserratSemiBold';
+	src: url('../fonts/Montserrat-SemiBold.eot');
+	src: local('☺'), url('../fonts/Montserrat-SemiBold.woff') format('woff'), 
+	url('../fonts/Montserrat-SemiBold.ttf') format('truetype'), 
+	url('../fonts/Montserrat-SemiBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+

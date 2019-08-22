@@ -1,0 +1,116 @@
+.MainMenu li a {
+	font-family:MontserratRegular;
+	text-transform:uppercase;
+}
+
+
+.HomeSlideLeft .SlideInfoLeft .Item .Title { 
+	font-family:MontserratBold; 
+}
+.HomeSlideLeft .SlideInfoLeft .Item .Text { 
+    font-family: MontserratHairline; 
+}
+.HomeService .Head .Info .Title span {
+	font-family:MontserratBold;
+}
+.HomeService .Head .Info .Title {
+	font-family:MontserratLight;
+}
+
+.HomeWhyBatumi .InfoDiv .Title {
+	font-family:MontserratLight; 
+}
+.HomeWhyBatumi .InfoDiv .Title span {
+	font-family:MontserratBold;
+}
+
+.HomeWhyBatumi .ReadMore { 
+	font-family:MontserratBold; 
+} 
+
+.FooterContact .Contact1 .Title { 
+	font-family:MontserratLight; 
+}
+.FooterContact .Contact1 .Title span {
+	font-family:MontserratBold;
+}
+
+.HomeSlideLeft .SlideInfoLeft .Item .ReadMore {
+	font-family:MontserratBold;
+}
+
+.HomeService .Head .Info .ReadMore {
+	font-family:MontserratBold;
+}
+
+.SubmitButton {
+	 font-family: MontserratLight;
+} 
+.HomeWhyBatumi .InfoDiv .List li {
+	font-family:MontserratBold; 
+}
+
+
+
+.InputStyle {
+	font-family:MontserratRegular;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color:#3a3c3e;
+	opacity:0.8;
+	font-family:MontserratRegular;
+	font-size:12px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color:#3a3c3e;
+	opacity:0.8;
+	font-family:MontserratRegular;
+	font-size:12px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	color:#3a3c3e;
+	opacity:0.8;
+	font-family:MontserratRegular;
+	font-size:12px;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color:#3a3c3e;
+	opacity:0.8;
+	font-family:MontserratRegular;
+	font-size:12px;
+}
+
+.HomeService .Content .Item .Text {
+	font-family:MontserratLight;
+}
+.Text {
+	font-family:MontserratLight !important;
+}
+
+
+.HomeService .Head .Info .Text {
+	font-family:MontserratLight; 
+}
+
+.modal .Head { 
+	font-family:MontserratLight; 
+}
+.modal .Head span {
+	font-family:MontserratBold;	
+}
+.SubmitButton label {
+	font-family:MontserratBold;
+}
+
+
+.MobileFloorChange .FloorNumber1 { 
+	font-family:MontserratBold;
+}
+
+.MobileFloorInfo span { 
+	font-family:MontserratBold; 
+}
+
+.MobileFloorInfo .Btn1 { 
+	font-family:MontserratBold; 
+}

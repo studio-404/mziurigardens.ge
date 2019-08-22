@@ -1,0 +1,3572 @@
+@media (max-width:992px) {
+
+
+
+
+
+	.FloorSlide .SmallTitle {
+
+		display:none;
+
+	}
+
+	.RightBitImage .Image {
+
+		margin-bottom:30px;
+
+	}
+
+	.BackIcon {
+
+		display:none;
+
+	}
+
+	.PlanTitle {
+
+		font-size:15px; 
+
+		top:0px;
+
+		left:0;
+
+		width:100%;
+
+		padding-top:10px;
+
+		padding-bottom:10px;
+
+		text-align:center;
+
+	}
+
+	.MobileWidth100 {
+
+		background:#2c51a3 !important;
+
+	}
+
+	.MobileWidth100:after {
+
+		width:100% !important;
+
+	}
+
+	.MapAreaDiv img {
+
+		height:90% !important
+
+	}
+
+	body {
+
+		padding-top:70px;
+
+		overflow-x:hidden;
+
+	}
+
+	html {
+
+		
+
+	}
+
+	.container {
+
+		width:100%;
+
+	}
+
+	.HeaderDiv {
+
+		height:70px;
+
+		line-height:70px;
+
+		background:#f3f7fa 
+
+	}
+
+	.HeaderDiv .Logo {
+
+		width:38px;
+
+		height:48px;
+
+		background-size:100% 100%;
+
+		background:url('../img/mobile_logo.png') no-repeat;
+
+		margin-left:22px;
+
+		margin-top:11px;
+
+	}
+
+	.HeadRight .ButtonCall {
+		display:none;
+	}
+	
+	.HeadRight .ButtonPDF {
+		display:none;
+	}
+	
+	.HeadRight .ButtonVideo {
+		display:none;
+	}
+
+	.HeadRight .LanguageDiv {
+
+		display:none;
+
+	}
+
+
+
+	.HeadRight .CamIcon {
+
+		margin-right:80px;
+
+		top:7px;
+
+	}
+
+
+
+	.MobileLang {
+
+		width:100%;
+
+		text-align:center;
+
+		position: relative;
+
+		top: 35px;
+
+		display:inline-block;
+
+	}
+
+	.MobileLang a {
+
+		color:#fff;
+
+		text-transform:uppercase;
+
+	    font-family: MontserratRegular;
+
+	    margin-left:35px;
+
+	    margin-right:35px;
+
+		position:relative;
+
+		font-size:16x;
+
+	}
+
+	.MobileLang a:hover {
+
+		text-decoration:none;
+
+		color:#f7c326;
+
+	}
+
+	.MobileLang a:after {
+
+		content: '';
+
+		position: absolute;
+
+		left: 54px;
+
+		top: 9px;
+
+		width: 4px;
+
+		height: 1.5px;
+
+		background: #fff;
+
+	}
+
+	.MobileLang a:last-child:after {
+
+		display:none;
+
+	}
+
+
+
+	.Hamburger {
+
+		position:absolute;
+
+		width: 39px;
+
+		height: 30px;
+
+		border-top: solid #3A3C3E 1px;
+
+		right: 20px;
+
+		top: 21px;
+
+		z-index:99999999;
+
+		cursor:pointer;
+
+	}
+
+	.Hamburger:after {
+
+		content:'';
+
+		width:100%;
+
+		height:1px;
+
+		background:#3A3C3E;
+
+		position:absolute;
+
+		top:40%;
+
+		left:0;
+
+		z-index:99999999;
+
+	}
+
+	.Hamburger:before {
+
+		content:'';
+
+		width:100%;
+
+		height:1px;
+
+		background:#3A3C3E;
+
+		position:absolute;
+
+		top:82%;
+
+		left:0;
+
+		z-index:99999999;
+
+	}
+
+	.ShowMenu {
+
+		overflow:hidden;
+
+	}
+
+	.ShowMenu .Hamburger {
+
+		border:none;
+
+	}
+
+	.ShowMenu .Hamburger:after {
+
+		background:#fff;
+
+		transform:rotate(-45deg);
+
+		transition:0.3s;
+
+		top:28%;
+
+	}
+
+	.ShowMenu .Hamburger:before {
+
+		background:#fff;
+
+		transform:rotate(45deg);
+
+		top: 8px;
+
+		transition:0.3s;
+
+	}
+
+	
+
+	
+
+	.DisplayFlex {
+
+		width:100%;
+
+		text-align:center;
+
+	}
+
+	
+
+
+
+
+
+
+
+	/****************************************************************/
+
+	.MainMenu {
+
+		position: fixed;
+
+		z-index: 99999999;
+
+		width: 100%;
+
+		height: 100%;
+
+		display:inline-block;
+
+		align-items:center; 
+
+		top:-100%;
+
+		left:0;
+
+		transition:0.5s;
+
+		padding-left:0;
+
+		display: inline-flex;
+
+		align-content: center;
+
+	} 
+
+	.ShowMenu .MainMenu {
+
+		top:0;
+
+		transition:0.5s;
+
+		background:#2c51a3 url('../img/color_bg.png');
+
+	}
+
+	.ShowMenuInside .MainMenu {
+
+		top:0;
+
+		transition:0.5s
+
+	}
+
+	.MainMenu ul {
+
+		padding:0
+
+	}
+
+	.MainMenu li {
+
+		list-style:none;
+
+		width:100%;
+
+		line-height: 50px;
+
+	}
+
+	.MainMenu li a {
+
+		color:#fff; 
+
+		font-size:20px; 
+
+		padding-bottom:20px;
+
+		width:100%;
+
+		text-align:center;
+
+		display:inline-block;
+
+	}
+
+	.MainMenu li a {
+
+		padding-bottom:0;
+
+	}
+
+	.MainMenu li a:hover {
+
+		text-decoration:none;
+
+		color:#f9af1f
+
+	}
+
+	/****************************************************************/
+
+
+
+
+
+
+
+	.HomeSlideControl {
+
+		display:none;
+
+	}
+
+ 	.ScrollDown {
+
+ 		display:none;
+
+ 	}
+
+ 	.HomeSlideImage {
+
+ 		width:100%;
+
+ 	}
+
+ 	.HomeSlideLeft .SlideInfoLeft .Item .Title {
+
+ 		font-size:20px;
+
+ 	}
+
+	.HomeSlideLeft .SlideInfoLeft .Item {
+
+		padding:22px 20px;
+
+		height:auto;
+
+	}
+
+	.HomeSlideLeft .SlideInfoLeft .Item .ReadMore {
+
+		display:none;
+
+	}
+
+	.HomeSlideLeft .SlideInfoLeft {
+
+		height:auto
+
+	}
+
+	.HomeSlideLeft .SlideInfoLeft .Item .Text {
+
+		height:auto;
+
+		font-size:11px;
+
+	}
+
+	.HomeSlideLeft .SlideInfoLeft {
+
+		width:250px;
+
+	}
+
+	.HomeSlideImage .Item .PdfIcon span {
+
+		display:none;
+
+	}
+
+	.HomeSlideImage .Item .PdfIcon label {
+
+		display:none;
+
+	}
+
+
+
+
+
+
+
+	.HomeService .Head .Info .Title {
+
+		font-size:22px;
+
+	}
+
+	.HomeService .Head .Info {
+
+		padding-left:20px;
+
+		padding-right:20px;
+
+	}
+
+	.HomeService .Head {
+
+		padding-top:10px;
+
+	}
+
+	.HomeService .Head .Info .Text {
+
+		margin-top:40px;
+
+	}
+
+	.HomeService .Head .Info .Title::after {
+
+		width:40px;
+
+		bottom: -19px; 
+
+		left: 2px;
+
+	}
+
+
+
+	.HomeService .Head .Info .ReadMore {
+
+		margin-top:30px;
+
+	}
+
+	.HomeService .ControlService {
+
+		display:none;
+
+	}
+
+
+
+	.HomeService .ServiceSlide {
+
+		width:100%;
+
+	}
+
+	.HomeService .Content {
+
+		padding-left:20px;
+
+		padding-right:20px;
+
+	}
+
+
+
+	.HomeService .Head .Info {
+
+		padding-bottom:213px
+
+	}
+
+	.HomeService .Content .Item {
+
+		height:auto;
+
+	}
+
+	.HomeService .Content .Item {
+
+		padding:23px 20px 5px 20px;
+
+	}
+
+	
+
+	.HomeWhyBatumi {
+
+		width:100%;
+
+		display:inline-block;
+
+		
+
+	}
+
+	.HomeWhyBatumi .container-fluid {
+
+		display:inline-block;
+
+		
+
+	}
+
+	.HomeWhyBatumi .InfoDiv {
+
+		margin-left:0;
+
+	}
+
+	.HomeWhyBatumi .InfoDiv .Title {
+
+		font-size:22px;
+
+	}
+
+	.HomeWhyBatumi .InfoDiv {
+
+		padding:25px 20px 70px 20px;
+
+	}
+
+	.HomeWhyBatumi .InfoDiv .List li{
+
+		font-size:12px;
+
+	}
+
+	
+
+	.FooterContact {
+
+		display:inline-block;
+
+		width:100%; 
+
+	}
+
+	.FooterContact .Contact1 {
+
+		padding-left:20px;
+
+		padding-right:20px
+
+	}
+
+	.FooterDiv {
+
+		height:80px;
+
+	}
+
+	.FooterDiv .col-sm-6 {
+
+		width:100%;
+
+		text-align:left;
+
+	}
+
+	.FooterDiv .col-sm-6.text-right {
+
+		text-align:left;
+
+	}
+
+	.FooterDiv .CreadetBy {
+
+		float:none;
+
+		margin-top:15px;
+
+	}
+
+	.ScrollTop {
+
+		width:60px;
+
+		height:150px;
+
+		left:calc(100% - 60px)
+
+	}
+
+
+
+	.HomeChooseFlat .container {
+
+		width:100%;
+
+	}
+
+	.ScrollTop {
+
+		background-size: auto 45px;
+
+		background-position: center 13px;
+
+	}
+
+	.ScrollTop .Text {
+
+		width: 100px; 
+
+		left: -22px; 
+
+		bottom: 49px;
+
+	}
+
+
+
+
+
+	.FooterContact {
+
+		background:#f3f7f9 url('../img/map_bg_m.png');
+
+		background-repeat:no-repeat; 
+
+		background-position:bottom;
+
+		background-size:100%
+
+	}
+
+	.FooterContact .Contact1 {
+
+		padding-bottom:250px;
+
+		padding-top:50px;
+
+	}
+
+	.FooterContact {
+
+		padding-top:0;
+
+	}
+
+	.FooterContact .Contact1 .FootLogo {
+
+	    width: 46px;
+
+	    height: 60px;
+
+     	background-size: auto;
+
+ 	    background-size: 100% 100%;
+
+	}
+
+	.FooterContact .Contact1 .Title {
+
+		font-size:22px;
+
+		padding-right: 10px;
+
+		margin-bottom:50px;
+
+	}
+
+	.FooterContact .Contact1 .ContactInfo li {
+
+		font-size:15px;
+
+		margin-bottom:10px;
+
+	}
+
+	.FooterContact .Contact1 .ContactInfo li.Email {
+
+		margin-bottom:45px;
+
+	}
+
+	.FooterContact .Contact1 .Title {
+
+		margin-top:30px;
+
+	}
+
+	.FooterDiv {  
+
+	    padding-top: 20px;
+
+	}
+
+	.HomeWhyBatumi {
+
+		position:relative;
+
+	}
+
+	.HomeWhyBatumi:after {
+
+		content:'';
+
+		width:100%;
+
+		height:10px;
+
+		position:absolute;
+
+		top:100%;
+
+		left:0;
+
+		background:#f3f7f9;
+
+	}
+
+	.HomeWhyBatumi .ReadMore {
+
+		height:46px;
+
+		line-height:46px;
+
+		font-size: 11px;
+
+		left: 20px; 
+
+		position: relative;
+
+		padding-left:18px;
+
+		padding-right: 18px;
+
+	}
+
+	.HomeWhyBatumi .InfoDiv .List {
+
+		margin-top:30px;
+
+	}
+
+	.HomeWhyBatumi .InfoDiv {
+
+		padding-bottom:20px;
+
+	}
+
+	.HomeWhyBatumi .col-sm-5 {
+
+		background:#f3f7f9;
+
+	}
+
+
+
+	.FlatFooter {
+
+		padding-bottom:50px;
+
+		padding-top: 35px;
+
+	}
+
+
+
+	.FooterContact .Contact1 .FootSocial {
+
+		display:none;
+
+	}
+
+
+
+	.FlatTypesButton {
+
+		width:100%;
+
+	}
+
+	.FlatFooter {
+
+		padding-left:20px;
+
+		padding-right:20px;
+
+	}
+
+
+
+	.PaddingBottom0Mobile {
+
+		padding-bottom:0 !important;
+
+	}
+
+
+
+
+
+	.ContentDiv.BackgroundBlue {
+
+		background:#2c51a3 url('../img/color_bg.png');
+
+	}
+
+	.ContentDiv .Info {
+
+		padding-top:0;
+
+		padding-bottom:10px;
+
+	}
+
+	.ContentDiv .Info {
+
+		padding-left:20px;
+
+		padding-right:20px;
+
+	}
+
+	.ContentDiv .Info .Text {
+
+		padding-right:0;
+
+	}
+
+	.ContentDiv .Info .Title {
+
+		font-size:22px;
+
+	}
+
+	.ContentDiv {
+
+		padding-top:30px;
+
+		padding-bottom:122px;
+
+	}
+
+	.ContentDiv .Info .Text {
+
+		font-size:12px;
+
+	}
+
+	.ContentDiv .Info .Text::after {
+
+		width:40px;
+
+		background:#6c86bf;
+
+		top:25px;
+
+	}
+
+	.ContentDiv .Info .Text {
+
+		padding-top:55px;
+
+	}
+
+	.ContentDiv .Image {
+
+		width:100%;
+
+		height:auto;
+
+	}
+
+	.ContentDiv.LeftImage {
+
+		left:0;
+
+	}
+
+	.ContentDiv .Info {
+
+		padding-left:20px;
+
+		padding-right:20px;
+
+	}
+
+	.ContentDiv .container {
+
+		padding-left:5px;
+
+		padding-right:5px;
+
+	}
+
+	.ContentDiv.LeftImage .Info {
+
+		left:0;
+
+		padding-left:0;
+
+		padding-right:0;
+
+	}
+
+	.ContentDiv.LeftImage .Info {
+
+		padding-top:20px;
+
+	}
+
+
+
+	.ContentWithHeader {
+
+		margin-top:0;
+
+	}
+
+	.ContentWithHeader .Head {
+
+		padding-top:30px;
+
+		height:337px;
+
+	}
+
+	.ContentWithHeader .Head .Title {
+
+		font-size:22px;
+
+	}
+
+	.ContentWithHeader .Content {
+
+		padding-left:20px;
+
+		padding-right:20px;
+
+	} 
+
+
+
+
+
+	.ContentService .Head {
+
+		padding-top:30px;
+
+		height:337px;
+
+	}
+
+	.ContentWithHeader .Content .Item {
+
+		height:auto;
+
+		padding: 22px 20px;
+
+	}
+
+	.ContentService .Content .Item {
+
+		padding: 22px 20px;
+
+	}
+
+	.ContentService .Content {
+
+		padding-left:20px;
+
+		padding-right:20px;
+
+	}
+
+	.ContentService .Content .BigInfo .Title {
+
+		font-size:22px;
+
+	}
+
+	.ContentService .Head {
+
+		padding-top:30px;
+
+	}
+
+	.ContentService .Content .BigInfo .Text {
+
+		padding-top:55px;
+
+	}
+
+	.ContentService .Content .BigInfo .Text:after {
+
+		width:40px;
+
+		background:#6c86bf;
+
+		top:25px;
+
+	}
+
+	.ContentService .Content .BigInfo .Text {
+
+		padding-right:0;
+
+		font-size:12px;
+
+	}
+
+	.ContentService .Head .Title {
+
+		font-size:22px;
+
+	}
+
+
+
+	.ContentService .Content { 
+
+	    margin-top: -246px; 
+
+	}
+
+
+
+	.ContentService .Content .col-sm-6 {
+
+
+
+	}
+
+	.ContentService .Content .BigInfo {
+
+		top:-60px;
+
+	}
+
+
+
+	.MobilePadding0 {
+
+		padding:0;
+
+	}
+
+
+
+
+
+
+
+
+
+	.MapAreaDiv {
+
+		top:0;
+
+		height:100%;
+
+	}
+
+	.MapAreaDiv .map {
+
+		width:100%;
+
+		background-size:cover !important;
+
+		background-position:center center !important 
+
+	}
+
+	.ProjectContentDiv {
+
+		width:100%;
+
+		/*height:100%;*/
+
+		height:auto;
+
+	}
+
+	.ProjectContentDiv .container {
+
+		height:100%;
+
+		position:relative;
+
+	}
+
+	.ProjectContentDiv .container .row {
+
+		height:100%;
+
+	}
+
+	.ProjectContentDiv .container .col-sm-12 {
+
+		height:100%;
+
+	}
+
+
+
+ 
+
+ 
+
+	
+
+ 
+
+	
+
+	.MobileFloorChange {
+
+		height:70px;
+
+		line-height:70px;
+
+		width:100%;
+
+		background:#15B99B;		
+
+		z-index:99;
+
+		position:relative;
+
+		overflow:hidden
+
+	}
+
+	.MobileFloorChange:after {
+
+		content:'';
+
+		width:6px;
+
+		height:18px;
+
+		position:absolute;
+
+		top:50%;
+
+		margin-top:-9px;
+
+		left:35px;
+
+		background:url('../img/down_arrow.png') no-repeat;
+
+	}
+
+	.MobileFloorChange:before {
+
+		content:'';
+
+		width:6px;
+
+		height:18px;
+
+		position:absolute;
+
+		top:50%;
+
+		margin-top:-9px;
+
+		right:35px;
+
+		background:url('../img/up_arrow.png') no-repeat;
+
+	}
+
+	.MobileFloorChange .FloorNumber1 {
+
+		position:absolute;
+
+		top:0;
+
+		left:0;
+
+ 		width:100%;
+
+		text-align:center;
+
+		color:#fff;
+
+		font-size:25px;
+
+		font-family:Roboto_Geo_Arm_Mt_Bold;
+
+	}
+
+	.MobileFloorChange select {
+
+		width:150%;
+
+		height:100%;
+
+		text-align:center;
+
+		background:none;
+
+		border:none;
+
+		opacity:0;
+
+	}
+
+
+
+	.Absolute1 {
+
+		position:absolute;
+
+		bottom:0;
+
+	}
+
+
+
+	.SmallSelectMobile {
+
+		display:inline-block;
+
+		width:100%; 
+
+		background:#15B99B;	
+
+		position:relative;
+
+		top:5px;
+
+	}
+
+	.SmallSelectMobile .Item {
+
+		width:33.33333333333333%;
+
+		display:inline-block;
+
+		float:left;
+
+		border-right:solid #333 1px;
+
+	}
+
+	.SmallSelectMobile .Item:last-child {
+
+		border:none;
+
+	}
+
+	.SmallSelectMobile .MobileFloorChange {
+
+		overflow:hidden
+
+	}
+
+	.SmallSelectMobile .MobileFloorChange:after { 
+
+		 left:5px;
+
+	}
+
+	.SmallSelectMobile .MobileFloorChange:before { 
+
+		 right:5px;
+
+	}
+
+	.SmallSelectMobile .MobileFloorChange .FloorNumber1 {
+
+		font-size:13px; 
+
+		font-family:Roboto_Geo_Arm_Mt;
+
+	}
+
+	
+
+
+
+	
+
+	.SelectsDiv {
+
+		position:absolute;
+
+		width:100%;
+
+		height:100%;
+
+		background:transparent;
+
+		z-index:999;
+
+	}
+
+	.SelectsDiv .Item1 {
+
+		width:33.33333333333333%;
+
+		height:100%;
+
+		position:absolute;
+
+		top:0;	
+
+		left:0;	 
+
+	}
+
+	.SelectsDiv .Item2 {
+
+		width:33.33333333333333%;
+
+		height:100%;
+
+		position:absolute;
+
+		top:0;	
+
+		left:33.33333333333333%;		
+
+	}
+
+	.SelectsDiv .Item3 {
+
+		width:33.33333333333333%;
+
+		height:100%;
+
+		position:absolute;
+
+		top:0;	
+
+		left:calc(100% - 33.33333333333333%);		
+
+	}
+
+	.SelectsDiv .Item select {
+
+		width:100%;
+
+		height:100%;
+
+		display:inline-block;
+
+		float:left;
+
+		opacity:0;
+
+	}
+
+	
+
+	.Color111 .MobileFloorChange {
+
+		background:#15b99b !important;
+
+	}
+
+	.Color222 .MobileFloorChange {
+
+		background:#fec20e !important;
+
+	}
+
+	.Color333 .MobileFloorChange {
+
+		background:#54baea !important;
+
+	}
+
+	
+
+
+
+/******************************************************************************************/
+
+
+
+	.FloorContentDiv {
+
+		height: 245px;
+		
+
+	}
+
+
+
+	.FloorContentDiv .WithBackground {
+
+		background:none;
+
+	}
+
+	.FloorContentDiv .WithBackground:after {
+
+		display:none;
+
+	}
+
+	.FloorPageDiv .Head {
+
+		display:none;
+
+	}
+
+	.FloorPageDiv {
+
+		padding-top:0;
+
+	}
+
+	.FloorImageDiv {
+
+		width:calc(100% + 40px);
+
+		padding-left:20px;
+
+		padding-right:20px;
+
+		margin-top:0;
+
+		height:245px;
+
+		position:relative;
+
+	}
+
+	.FloorImageDiv:after {
+
+		content:'';
+
+		width:100%;
+
+		height:100%;
+
+		position:absolute;
+
+		top:0;
+
+		left:0;
+
+	}
+
+	
+
+	.FloorImageDiv .ImgMap { 
+
+		width:100%;
+
+		background-repeat:no-repeat;
+
+	}
+
+
+
+	.MobileFloorInfo {
+
+		width:100%;
+
+		display:inline-block;
+
+		position:relative;
+
+		top:-30px;
+
+	}
+
+	.MobileFloorInfo span {
+
+		display:inline-block;
+
+		float:left; 
+
+		font-family:Roboto_Geo_Arm_Mt_Bold;
+
+		font-size:22px;
+
+		margin-top:6px;
+
+	}
+
+	.MobileFloorInfo .Btn1 {
+
+		display:inline-block;
+
+		float:right; 
+
+		font-family:RobotoNusx;
+
+		font-style:italic;
+
+		font-size:9px;
+
+		background:#F7C326;
+
+		height:26px;
+
+		line-height:26px; 
+
+		color:#fff;
+
+		padding-left:20px;
+
+		padding-right:20px;
+
+		margin-top:10px;
+
+	}
+
+
+
+
+
+
+
+	.FlatInfoDiv {
+
+		width:100%;
+
+	    padding:37px 20px;
+
+	    margin-top:22px;
+
+	}
+
+	.FlatInfoDiv .Info .FlootSocial a {
+
+		    padding-left: 20px;
+
+			padding-right: 20px;
+
+	}
+
+	.FloorPageDiv .Content {
+
+		padding-left:20px;
+
+		padding-right:20px;
+
+	}
+
+	.FlatInfoDiv .FlatHead span {
+
+		font-size:32px;
+
+	}
+
+	.FlatInfoDiv .FlatHead span label {
+
+	    font-size: 16px;
+
+ 	    top: -13px;
+
+	}
+
+	.FlatInfoDiv .FlatHead div {
+
+		font-size:9px;
+
+		height:26px;
+
+		line-height:26px;
+
+		margin-top:9px;
+
+	}
+
+	.FlatInfoDiv .InfoList .List li div {
+
+		font-size:13px;
+
+	}
+
+	.FlatInfoDiv .Info {
+
+		margin-top:40px; 
+
+	}
+
+	.FlatInfoDiv .Info .DownloadButton {
+
+		font-size:8.5px;
+
+	}
+
+
+
+	.row20 {
+
+		margin-left:-20px;
+
+		margin-right:-20px;
+
+	}
+
+
+
+	.RightBitImage {
+
+		width:100%;
+
+		border:none;
+
+	    margin-top: 0;
+
+	    padding-top: 30px;
+
+	    padding-bottom: 0;
+
+	    height:auto;
+
+	}
+
+
+
+	.FloorContentDiv .ImageGallery {
+
+		padding-left:20px;
+
+		padding-right:20px;
+
+ 		top:70px;
+
+	}
+
+	.FloorContentDiv .ImageGallery .GallerySlide .Item a {
+
+		width:100%;
+
+	}
+
+	.FloorContentDiv .ImageGallery .GallerySlide .Item .Image {
+
+		width:100%;
+
+	}
+
+	.FloorContentDiv .ImageGallery .GallerySlide .Item .Image img {
+
+		width:100%;
+
+	}
+
+
+
+
+
+/******************************************************************************************/
+
+
+
+
+
+	.Height800 {
+
+		height:auto !important;
+
+	}
+
+
+
+
+
+
+
+	.ContentDiv .Info .Text.Noline {
+
+		padding-top:15px;
+
+	}
+
+	.ContentDiv .Info .Text li {
+
+		font-size:12px;
+
+		padding-left:25px;
+
+		margin-bottom:0;
+
+	}
+
+	.MobileParalax1 {
+
+		margin-top:10px;
+
+		height:250px;
+
+	}
+
+	.MobileParalax1 .ParallaxBackground {
+
+		height:250px;
+
+	}
+
+
+
+	.PaddingLeft250 {
+
+		padding-left:0;
+
+	}
+
+	.MarginTop220 {
+
+		margin-top:30px;
+
+	}
+
+	.GreenTextContent .Info {
+
+		top:0;
+
+	}
+
+	.GreenTextContent .Info .Title {
+
+		font-size:22px;
+
+		padding-left:20px
+
+	}
+
+	.GreenTextContent .Info .Text {
+
+		padding-top:35px;
+
+		padding-right:20px;
+
+		padding-left:20px;
+
+		font-size:12px;
+
+	} 
+
+	.GreenTextContent .Info .Title::after { 
+
+	    content: '';
+
+	    width: 40px;
+
+	    height: 1px;
+
+	    background: #16b99b;
+
+	    position: absolute;
+
+	    top: 47px;
+
+	    left: 20px; 
+
+	}
+
+	.Top170 {
+
+		top:0;
+
+	}
+
+	.PaddingLeft50 {
+
+		padding-left:0;
+
+	}
+
+
+
+	.GreenTextContent .Info .Text li {
+
+		font-size:12px;
+
+		padding-left:25px;
+
+		margin-bottom:0;
+
+	}
+
+
+
+	.CallMobile {
+		width: 26px;
+		height: 26px;
+		background: url('../img/phone.png') no-repeat;
+		background-size: auto;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 40%;
+		top: 50%;
+		margin-right: -13px;
+		margin-top: -13px;
+		z-index:9999999;
+		cursor:pointer;
+	}
+
+	.VideoMobile {
+		width: 26px;
+		height: 26px;
+		background: url('../img/play_green.png') no-repeat;
+		background-size: auto;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 55%;
+		top: 50%;
+		margin-right: -13px;
+		margin-top: -13px;
+		z-index:9999999;
+		cursor:pointer;
+	}
+	
+	.PDFMobile {
+		width: 26px;
+		height: 26px;
+		background: url('../img/pdf_blue.png') no-repeat;
+		background-size: auto;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 70%;
+		top: 50%;
+		margin-right: -13px;
+		margin-top: -13px;
+		z-index:9999999;
+		cursor:pointer;
+	}	
+
+	#CallModal .modal-dialog {
+
+		width:calc(100% - 20px);
+
+	}
+
+ 
+
+	.modal-body { 
+
+	    padding: 25px 22px; 
+
+	}
+
+	.modal .Head {
+
+		margin-bottom:25px;
+
+	}
+
+	
+
+	
+
+	.FlatInfoDiv {
+
+		min-height:auto;
+
+	}
+
+	
+
+	
+
+		
+
+	.HomeChooseFlat .FlatSlide .Item .Image {
+
+		width:100%;
+
+	}
+
+	.HomeChooseFlat .FlatSlide .Item .Info {
+
+		width:100%;
+
+		padding:30px;
+
+	}
+
+	.HomeChooseFlat .Title {
+
+		font-size:20px;
+
+	}
+
+		
+
+	.HomeLogo {
+
+		display:none;
+
+	} 
+
+	
+	
+	
+	.HomeBody .HeaderDiv .Logo {
+
+		opacity:1;
+
+		visibility:visible;
+
+	}
+
+	
+
+	
+
+	.HomeSlideLeft .SlideInfoLeft .Item .Title {
+
+		height:auto
+
+	}
+
+	.HomeSlideLeft .SlideInfoLeft .Item .Title {
+
+		line-height:25px;
+
+	}
+
+	
+
+	.HomeSlideImage .Item .PdfIcon {
+
+		right:0;
+
+		bottom:30px;
+
+	}
+
+	.HomeSlideImage .Item .WatchVideo {
+
+		left:0;
+
+		bottom:30px;
+
+	}
+
+	.HomeSlideImage .Item .WatchVideo span {
+
+		display:none;
+
+	}
+
+	.HomeSlideImage .Item .WatchVideo label {
+
+		display:none
+
+	}
+
+	.HomeSlideImage .Item .WatchVideo div {
+
+		margin-left:0
+
+	}
+
+	
+
+	
+
+	.HomeChooseFlat .Title {
+
+		margin-bottom:0px;
+
+		position:relative;
+
+		top:-70px;
+
+	}
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	.ImgMap {
+
+		width:100% !important;
+
+		height:150px !Important;
+
+	}
+
+	.ImgMap canvas, .ImgMap map {
+
+		width:100% !important;
+
+		height:150px !Important;
+
+	}
+
+	.MapAreaDiv {
+
+		display: inline-block;
+
+		width: 100%;
+
+	}
+
+	
+
+	.GreenTextContent  {
+
+		display:inherit
+
+	}
+
+	.GreenTextContent .col-sm-6 {
+
+		display:inline-block;
+
+		width:100%;
+
+		float:left;
+
+	}
+
+	.MarginTop130 {
+
+		margin-top:0
+
+	}
+
+	.Info.Top170.PaddingLeft50 {
+
+		padding-top:30px
+
+	}
+
+	
+
+	html {
+
+		/*width:360px;
+
+		max-width:360px;*/
+
+	}
+
+	body {
+
+		/*width:360px;
+
+		max-width:360px;*/
+
+		overflow-x:hidden;
+
+	}
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	.ContactBox {
+
+		width:100%;
+
+		position:relative;
+
+		top:150px;
+
+		left:0;
+
+		height:auto;
+
+		padding-left:25px;
+
+		padding-right:25px;
+
+		padding-top:20px;
+
+		padding-bottom:20px
+
+	}
+
+	.ContactBox .Title1 {
+
+		font-size:14px;
+
+	}
+
+	.ContactPageDiv .ContentDiv {
+
+		height:550px;
+
+		padding-left:20px;
+
+		padding-right:20px;
+
+	}
+
+	.ContactPageDiv .ContentDiv .Info {
+
+		padding-left:0
+
+	}
+
+	.ContactPageDiv .ContactBox {
+
+		top: 61px;
+
+		padding-bottom:5px;
+
+	}
+
+	.ContactPageDiv .Title {
+
+		top:35px;
+
+	}
+
+	.ContactBox .SubmitButton {
+
+		width:100%
+
+	}
+
+	
+
+	.LeftTextDiv { 
+
+		display:none;
+
+	}
+
+	.RightTextDiv { 
+
+		display:none;
+
+	}
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	.StageRightDiv {
+
+		width:50%;
+
+		display:inline-block;
+
+		float:left;
+
+		padding-top:50px;
+
+	}
+
+	#ScrollStage {
+
+		display:inline-block;
+
+	}
+
+	 
+
+	.StageRightDiv .Title a {
+
+		display:none;
+
+	}
+
+	.StageRightDiv .Title a:hover {
+
+		background:#2c537e;
+
+	}
+
+	.StageRightDiv li {
+
+		list-style:none;
+
+		width:100%;
+
+		display:inline-block;
+
+		float:left;
+
+		text-align:center;
+
+	}
+
+	.StageRightDiv li a {	
+
+		font-family:AvenirNextMediumItalic;
+
+		color:#66808d;
+
+		display:block;
+
+		text-decoration:none;
+
+		padding:10px;
+
+		font-size:13px;
+
+		position:relative;
+
+		transition:0.5s;
+
+	}
+
+
+
+	.StageRightDiv li.active a,
+
+	.StageRightDiv li a:hover {
+
+		background:#ecbd56;
+
+		color:#fff;
+
+	}
+
+	.StageRightDiv li.active a span,
+
+	.StageRightDiv li a:hover span {
+
+		visibility:visible;
+
+		opacity:1;
+
+		transition:0.5s;
+
+	}
+
+
+
+	
+
+	
+
+	.StageRightDiv {
+
+		width: 100%;
+
+		background: #2c51a3;
+
+		padding: 0;
+
+		position: relative; 
+
+		z-index: 99;
+
+	}
+
+	.FloorPageDiv  .StageRightDiv {
+
+		margin-top:-100px;
+
+		position:relative;
+
+		z-index:99;
+
+	}
+
+	.StageRightDiv222 {
+
+		margin-top:-40px !important;
+
+	}
+
+	#ScrollStage {
+
+		padding:10px;
+
+		padding-top:0
+
+	}
+
+	.StageRightDiv .Title {
+
+		padding:0;
+
+		margin:0
+
+	}
+
+	.StageRightDiv .Title {
+
+		display:block;
+
+		width:100%;
+
+		text-align:center;
+
+		color:#fff;
+
+		text-decoration:none;
+
+		text-transform:uppercase;
+
+		font-family:Roboto_Geo_Arm_Mt_Bold;
+
+		padding:15px;
+
+		position:relative;
+
+		z-index:9999;
+
+	}
+
+	.StageRightDiv li {
+
+		width:50%;
+
+	}
+
+	
+
+	.StageRightDiv li .Image {
+
+		width:100%;
+
+		height:95px;
+
+		margin-bottom:10px;
+
+		text-align:center;
+
+	}
+
+	.StageRightDiv li a.SoldDiv .Image img{
+
+		opacity:0.5
+
+	}
+
+	.StageRightDiv li .Sold {
+
+		text-transform: uppercase;
+
+		position: absolute;
+
+		z-index: 999;
+
+		font-family: Roboto_Geo_Arm_Mt_Bold;
+
+		font-size: 11px;
+
+		font-weight: bold;
+
+		letter-spacing: 1px;
+
+		width: 85px;
+
+		height: 30px;
+
+		line-height: 33px;
+
+		text-align: center;
+
+		color: #2d2b24;
+
+		background: #fff;
+
+		box-shadow: 0 0 10px rgba(0,0,0,0.7);
+
+		left:50%;
+
+		top:50%;
+
+		margin-left:-42px;
+
+		margin-top:-15px;
+
+		display:none;
+
+	}
+
+	
+
+	.StageRightDiv li a.SoldDiv .Sold {
+
+		display:block;
+
+	}
+
+	
+
+	.StageRightDiv li .Image img {
+
+		max-width:100%;
+
+		max-height:100%;
+
+	}
+
+	.StageRightDiv li a {
+
+		padding:6px 10px;
+
+		border:solid #fff 1px;
+
+		margin:10px;
+
+		color:#fff;
+
+		font-family:Roboto_Geo_Arm_Mt_Bold;
+
+		font-weight:bold;
+
+	}
+
+	.StageRightDiv li a span {
+
+		position:relative;
+
+		color:#fff;
+
+		display:inline-block;
+
+		width:100%;
+
+	}
+
+	.StageRightDiv li a span {
+
+		position:relative;
+
+		top:2px;
+
+		font-family:Roboto_Geo_Arm_Mt_Bold;
+
+		text-transform:uppercase;
+
+		font-size:10.5px;
+
+		font-weight:normal;
+
+	}
+
+	.StageRightDiv li a:hover {
+
+		background:#fff;
+
+		color:#eeb552;
+
+	}
+
+	.StageRightDiv li a:hover span {
+
+		color:#eeb552
+
+	}
+
+	
+
+	
+
+	.FooterContact {
+
+		width:100%;
+
+		overflow-x:hidden;
+
+	}
+
+	 
+
+	
+
+	
+
+	.MapLink1 {  
+
+		width: 150px;
+
+		height: 60px;
+
+		right: 54px;
+
+		bottom: 158px; 
+
+	}
+
+
+
+	.MapLink2 { 
+
+		width: 200px;
+
+		height: 50px;
+
+		right: 145px;
+
+		bottom: 98px;  
+
+	}	
+
+	
+
+	.ScrollTop11 {
+
+		position:relative;		 
+
+		width:100%;
+
+		height:70px;
+
+		background:transparent;
+
+	}
+
+	
+
+}
+
+
+
+@media (min-width:992px) {
+
+.RequestCallButton {
+    animation: play22 1.5s ease infinite;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+	position:relative;
+}
+.RequestCallButton:hover{
+	
+}
+@keyframes play22 {
+
+    0% {
+        transform: scale(1);
+    }
+    15% {
+        box-shadow: 0 0 0 5px rgba(253, 161, 0, 0.4);
+    }
+    25% {
+        box-shadow: 0 0 0 10px rgba(253, 161, 0, 0.4), 0 0 0 20px rgba(253, 161, 0, 0.2);
+    }
+    25% {
+        box-shadow: 0 0 0 15px rgba(253, 161, 0, 0.4), 0 0 0 30px rgba(253, 161, 0, 0.2);
+    }
+
+}
+
+	.ScrollTop11 {
+
+		display:none;
+
+	}
+
+	
+
+	.StageRightDiv {
+
+		display:none;
+
+	}
+
+	.SelectsDiv {
+
+		display:none; 
+
+	}
+
+	
+
+	.MobileMobile {
+
+		display:none;
+
+	}
+
+ 	.Height675 {
+
+		height:675px !important
+
+	}
+
+	.InlineBlock {
+
+		display:inline-block;
+
+		float:left;
+
+	}
+
+	.InlineFlex {
+
+		display:inline-flex;
+
+	 	align-items:center;
+
+	}
+
+	.MobileLang {
+
+		display:none;
+
+	}
+
+	.HideDesktop {
+
+		display:none;
+
+	}
+
+	.MobileFloorInfo {
+
+		display:none;
+
+	}
+
+	
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1600px) and (min-width: 993px)  {
+
+	.FloorContentDiv .WithBackground:after {
+		width:72%
+	}
+
+	.FloorContentDiv .BackgroundBlue { 
+		background: -webkit-linear-gradient(left, #2c51a3 72%, #ffffff 28%);
+		background: -moz-linear-gradient(left, #2c51a3 72%, #ffffff 28%);
+		background: -o-linear-gradient(left, #2c51a3 72%, #ffffff 28%);
+		background: -ms-linear-gradient(left, #2c51a3 72%, #ffffff 28%);
+		background: linear-gradient(left, #2c51a3 72%, #ffffff 28%);
+	}
+
+	.HeaderDiv {
+		background: -webkit-linear-gradient(left, #f3f7fa 72%, #ffffff 28%);
+		background: -moz-linear-gradient(left, #f3f7fa 72%, #ffffff 28%);
+		background: -o-linear-gradient(left, #f3f7fa 72%, #ffffff 28%);
+		background: -ms-linear-gradient(left, #f3f7fa 72%, #ffffff 28%);
+		background: linear-gradient(left, #f3f7fa 72%, #ffffff 28%);
+	}
+	
+	.HeadRight .ButtonPDF {
+		margin-top:25px;
+	}
+	.HeadRight .ButtonVideo { 
+		margin-top:25px;
+	}
+	.HeadRight .ButtonCall {
+		margin-top:25px;
+	}
+
+	
+
+	
+
+	.HomeService .Content .Item {
+
+		padding: 24px 20px;
+
+	}
+
+	.ContentDiv .Info .Title {
+
+		font-size:35px;
+
+	}
+
+	.ContentDiv .Info .Text li {
+
+		font-size:14px;
+
+		margin-bottom:10px;
+
+	}
+
+	
+
+	.ContentDiv .Info .Text.Noline {
+
+		padding-top:40px;
+
+	}
+
+	
+
+	.GreenTextContent .Info .Title {
+
+		font-size:35px;
+
+	}
+
+	.GreenTextContent .Info .Text {
+
+		font-size:14px;
+
+	}
+
+	.MarginTop130 {
+
+		margin-top:0;
+
+	}
+
+	.Top170 {
+
+		top:30px !important;
+
+	}
+
+	.GreenTextContent .Info .Text {
+
+		padding-top:50px;
+
+		top:0;
+
+	}
+
+	.GreenTextContent .Info .Text:after  {
+
+		top:70px;
+
+	}
+
+	
+
+	
+
+	.HomeChooseFlat .container {
+
+		width:1250px !important;
+
+	}
+
+	.container {
+
+		width:1250px !important;
+
+	}
+
+	.FooterDiv {
+
+		height:110px; 
+
+	}
+
+	
+
+	.MainMenu {
+
+		padding-left: 150px;
+
+	}
+
+	.HeadRight .LanguageDiv {
+
+		margin-right: 33px;
+
+	}
+
+	.HeadRight .CamIcon {
+
+		margin-right:27px;
+
+	}
+
+	
+
+	.ScrollDown {
+
+		height:85px;
+
+		width:230px;
+
+		line-height:107px;
+
+		bottom:172px;
+
+	}
+
+	.ScrollDown:after {
+
+		top:64%;
+
+		width:70px;
+
+		left:-70px;
+
+	}
+
+	
+
+	.HomeSlideLeft .SlideInfoLeft .Item {
+
+		width:570px !important;
+
+		height:270px !important;
+
+	}
+
+	
+
+	.HomeSlideLeft .SlideInfoLeft {
+
+		width:570px !important;
+
+		height:270px !important;
+
+	}
+
+	.HomeSlideLeft .SlideInfoLeft .Item .Title {
+
+		font-size:40px;
+
+		line-height:45px;
+
+	}
+
+	
+
+	.HomeSlideLeft .SlideInfoLeft .Item {
+
+		padding:28px 50px 40px 36px;
+
+	}
+
+	.HomeSlideControl {
+
+		height:100px;
+
+	}
+
+	.HomeSlideLeft .SlideInfoLeft {
+
+		bottom:75px;
+
+	}
+
+	.HomeSlideLeft .SlideInfoLeft .Item .Title {
+
+		height: 100px;
+
+ 	}
+
+	.HomeSlideLeft .SlideInfoLeft .Item .ReadMore {
+
+		left:36px;
+
+	}
+
+	.HomeSlideControl .slick-dots {
+
+		bottom: 12px;
+
+	}
+
+	.HomeLogo {
+
+		width:150px;
+
+	}
+
+	
+
+	.HomeService .Head .Info .Title {
+
+		font-size:40px;
+
+	}
+
+	.HomeWhyBatumi .InfoDiv .Title {
+
+		font-size:40px;
+
+	}
+
+	
+
+	
+
+	
+
+	.FooterContact .Contact1 .Title {
+
+		font-size:28px;
+
+	}
+
+	
+
+	body {
+
+		padding-top:100px
+
+	}
+
+	.HeaderDiv {
+
+		height:100px;
+
+		line-height:100px;
+
+	}
+
+	.HeadRight .Button {
+
+		margin-top: 26px;
+
+	}
+
+	
+
+	
+
+	.HomeSlideImage .Item .WatchVideo div {
+
+		height:42px;
+
+		width:42px;
+
+	}
+
+	.HomeSlideImage .Item .WatchVideo {
+
+		left:250px;
+
+		bottom:20px;
+
+	}
+
+	.HomeSlideImage .Item .WatchVideo span {
+
+		font-size:12px;
+
+	}
+
+	.HomeSlideImage .Item .WatchVideo label {
+
+		font-size:12px;
+
+	}
+
+	
+
+	
+
+	
+
+	.HomeSlideImage .Item .PdfIcon {
+
+		right:150px;
+
+		bottom:20px;
+
+	}
+
+	.HomeSlideImage .Item .PdfIcon span {
+
+		font-size:12px;
+
+	}
+
+	.HomeSlideImage .Item .PdfIcon label {
+
+		font-size:12px;
+
+	}
+
+	.HomeSlideImage .Item .PdfIcon div {
+
+		height:42px;
+
+		width:42px;
+
+		background-size: 55%;	
+
+		margin-left:15px;
+
+	}
+
+	
+
+	
+
+	.GreenTextContent .Info .Title:after {
+
+		top:75px;
+
+	}
+
+	
+
+	.MarginTop150 {
+
+		margin-top:0;
+
+	}
+
+	.PaddingLeft250 {
+
+		padding-left:150px;
+
+	}
+
+	.HeaderDiv .Logo {
+
+		margin-top:15px;
+
+	}
+
+	
+
+	
+
+	.FloorContentDiv .ImageGallery .GallerySlide .Item img {
+
+		height:150px;
+
+	}
+
+	.FloorPageDiv .Head .Title {
+
+		font-size:45px;
+
+	}
+
+	.FlatInfoDiv .FlatHead span {
+
+		font-size:50px;
+
+	}
+
+	
+
+	
+
+	
+
+	.HomeWhyBatumi .InfoDiv {
+
+		padding:29px 30px 50px 33px;
+
+		margin-left: -165px;
+
+	}
+
+	.HomeWhyBatumi .InfoDiv .List {
+
+		margin-top: 35px;
+
+	}
+
+	.HomeWhyBatumi .InfoDiv .Title {
+
+		font-size: 40px;
+
+	}
+
+	.HomeWhyBatumi .InfoDiv .List li {
+
+		font-size:14px;
+
+	}
+
+	
+
+	.HomeChooseFlat .Title {
+
+		margin-bottom:70px;
+
+	}
+
+	.HomeService {
+
+		padding-bottom:70px;
+
+	}
+
+	.HomeChooseFlat .Title {
+
+		font-size:30px;
+
+	}
+
+	
+
+		
+
+	
+
+	
+
+	
+
+	.BackIcon {
+
+		left: 145px; 
+
+		top: 37px;
+
+	}
+
+	.ContactPageDiv .ContentDiv .Info {
+
+		padding-top:30px;
+
+	}
+
+	.ContactPageDiv .ContentDiv {
+
+		height:370px;
+
+	}
+
+	
+
+ 
+
+	.LeftTextDiv { 
+
+		width:50px;
+
+		left: 12px;
+
+		top: 198px;
+
+	}
+
+	.RightTextDiv { 
+
+		width: 50px;
+
+		right: 12px;
+
+		top: 205px;
+
+	}
+
+ 
+
+	
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) and (orientation: landscape) {
+
+	html {
+
+		background:#eceff1 url('https://assets.materialup.com/uploads/0f3e0ba6-1913-41b7-9eee-f9acde49c8b0/800x600.gif') no-repeat;
+
+		background-size:50% ;
+
+		background-position:center center;
+
+		width:100%;
+
+		height:100%;
+
+	}
+	html:after {
+		content:'Please Rotate Mobile...';
+		font-family:Roboto_Geo_Arm_Mt;
+		color:#777;
+		width:140px;
+		text-align:center;
+		position:absolute;
+		top:30px;
+		left:50%;
+		margin-left:-70px;
+	}
+
+	body {overflow:hidden;opacity:0}
+
+	.MobileGif {
+
+		width:100%;
+
+		height:100%; 
+
+		position:absolute; 
+
+		top:0;
+
+		
+
+		left:0;
+
+		text-align:center;
+
+		z-index:99999999999999999999999;
+
+	}
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:992px) {
+
+	
+
+	.ApartSoldDiv {}
+
+	.ApartSoldDiv div {
+
+		text-transform:uppercase;
+
+		position:absolute;
+
+		z-index: 999;
+
+		font-family: Roboto_Geo_Arm_Mt_Bold;
+
+		font-size: 6px; 
+
+		font-weight: bold;
+
+		letter-spacing: 1px;
+
+		width:40px;
+
+		height:20px;
+
+		line-height:20px;
+
+		text-align:center;
+
+		color:#2d2b24;
+
+		background:#fff;
+
+		display:none;
+
+		box-shadow:0 0 10px rgba(0,0,0,0.7); 
+
+		transform:rotate(-90deg); 
+
+		 
+
+	}
+
+	.ApartSoldDiv div.active {
+
+		display:block;
+
+	} 
+
+	#Sold_1 {top: 117px; right: 21px;} 
+
+	#Sold_2 {top: 174px; right: 21px;}
+
+	#Sold_3 {top: 174px; right: 57px;} 
+
+	#Sold_4 {top: 174px; right: 84px;} 
+
+	#Sold_5 {top: 174px; right: 110px;} 
+
+	#Sold_6 {top: 174px; right: 138px;} 
+
+	#Sold_7 {top: 174px; right: 166px;} 
+
+	#Sold_8 {top: 174px; right: 193px;} 
+
+	#Sold_9 {top: 174px; right: 221px;} 
+
+
+
+	#Sold_10 {top: 174px; right: 248px;} 
+
+	#Sold_11 {top: 174px; right: 276px;} 
+
+	#Sold_12 {top: 174px; right: 304px;} 
+
+	#Sold_13 {top: 117px; right: 304px;} 
+
+	#Sold_14 {top: 117px; right: 248px;} 
+
+	#Sold_15 {top: 117px; right: 221px;} 
+
+	#Sold_16 {top: 117px; right: 193px;} 
+
+	#Sold_17 {top: 117px; right: 166px;} 
+
+	#Sold_18 {top: 117px; right: 138px;} 
+
+	#Sold_19 {top: 117px; right: 110px;}  
+
+	
+
+	
+
+	.HortenziaSold #Sold_1 {top: 174px; right: 21px;} 
+
+	.HortenziaSold #Sold_2 {top: 174px; right: 111px;}
+
+	.HortenziaSold #Sold_3 {top: 174px; right: 139px;} 
+
+	.HortenziaSold #Sold_4 {top: 174px; right: 166px;} 
+
+	.HortenziaSold #Sold_5 {top: 174px;right: 193px;} 
+
+	.HortenziaSold #Sold_6 {top: 174px; right: 220px;} 
+
+	.HortenziaSold #Sold_7 {top: 174px; right: 247px;} 
+
+	.HortenziaSold #Sold_8 {top: 174px; right: 298px;} 
+
+	.HortenziaSold #Sold_9 {top: 117px; right: 303px;} 
+
+	.HortenziaSold #Sold_10 {top: 117px; right: 276px;} 
+
+	.HortenziaSold #Sold_11 {top: 117px; right: 249px;} 
+
+	.HortenziaSold #Sold_12 {top: 117px; right: 221px;} 
+
+	.HortenziaSold #Sold_13 {top: 117px; right: 193px; } 
+
+	.HortenziaSold #Sold_14 {top: 117px; right: 166px;} 
+
+	.HortenziaSold #Sold_15 {top: 117px; right: 138px;} 
+
+	.HortenziaSold #Sold_16 {top: 117px; right: 110px;} 
+
+	.HortenziaSold #Sold_17 {top: 117px;right: 83px;} 
+
+	.HortenziaSold #Sold_18 {top: 117px; right: 56px;} 
+
+	.HortenziaSold #Sold_19 {top: 117px; right: 23px;} 
+
+	
+
+	
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

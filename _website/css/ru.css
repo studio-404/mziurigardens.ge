@@ -1,0 +1,74 @@
+@font-face {
+	font-family: 'Exo2SemiBold';
+	src: url('../fonts/Exo2-SemiBold.eot');
+	src: local('☺'), url('../fonts/Exo2-SemiBold.woff') format('woff'), 
+	url('../fonts/Exo2-SemiBold.ttf') format('truetype'), 
+	url('../fonts/Exo2-SemiBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Exo2Light';
+	src: url('../fonts/Exo2-Light.eot');
+	src: local('☺'), url('../fonts/Exo2-Light.woff') format('woff'), 
+	url('../fonts/Exo2-Light.ttf') format('truetype'), 
+	url('../fonts/Exo2-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+.MainMenu li a {
+	font-family:Exo2SemiBold;
+	text-transform:uppercase;
+}
+
+
+
+.HomeSlideLeft .SlideInfoLeft .Item .Title { 
+	font-family:Exo2SemiBold; 
+}
+.HomeSlideLeft .SlideInfoLeft .Item .Text { 
+    font-family: MontserratHairline; 
+}
+.HomeService .Head .Info .Title span {
+	font-family:Exo2SemiBold;
+}
+.HomeService .Head .Info .Title {
+	font-family:Exo2Light;
+}
+
+.HomeWhyBatumi .InfoDiv .Title {
+	font-family:Exo2Light; 
+}
+.HomeWhyBatumi .InfoDiv .Title span {
+	font-family:Exo2SemiBold;
+}
+
+.HomeWhyBatumi .ReadMore { 
+	font-family:Exo2SemiBold; 
+} 
+
+.FooterContact .Contact1 .Title { 
+	font-family:Exo2Light; 
+}
+.FooterContact .Contact1 .Title span {
+	font-family:Exo2SemiBold;
+}
+
+.HomeSlideLeft .SlideInfoLeft .Item .ReadMore {
+	font-family:Exo2SemiBold;
+}
+
+.HomeService .Head .Info .ReadMore {
+	font-family:Exo2SemiBold;
+}
+
+.SubmitButton {
+	font-family: Exo2Light;
+} 
+.HomeWhyBatumi .InfoDiv .List li {
+	font-family:Exo2SemiBold; 
+}

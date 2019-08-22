@@ -1,0 +1,3065 @@
+* {
+    outline: none !important;
+}
+
+html {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+    padding-top: 140px;
+}
+
+ul {
+    padding-left: 5px;
+}
+
+.container-fluid {
+    display: inline-block;
+    width: 100%;
+    float: left;
+}
+
+.container {
+    width: 1400px;
+}
+
+.ColorWhite {
+    color: #fff;
+}
+
+.Padding0 {
+    padding: 0 !important;
+}
+
+.MarginTop_70 {
+    margin-top: -70px !important;
+}
+
+.MarginTop0 {
+    margin-top: 0 !important;
+}
+
+
+/* HEADER */
+
+.HeaderDiv {
+    height: 140px;
+    line-height: 140px;
+    width: 100%;
+    background: -webkit-linear-gradient(left, #f3f7fa 68%, #ffffff 32%);
+    background: -moz-linear-gradient(left, #f3f7fa 68%, #ffffff 32%);
+    background: -o-linear-gradient(left, #f3f7fa 68%, #ffffff 32%);
+    background: -ms-linear-gradient(left, #f3f7fa 68%, #ffffff 32%);
+    background: linear-gradient(left, #f3f7fa 68%, #ffffff 32%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.HeaderDiv .Logo {
+    width: 87px;
+    height: 68px;
+    background: url('../img/logo.png') no-repeat;
+    display: inline-block;
+    float: left;
+    margin-top: 35px;
+}
+
+.MainMenu {
+    padding-left: 250px;
+}
+
+.MainMenu li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.MainMenu li a {
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+    color: #3a3c3e;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.MainMenu li.active a,
+.MainMenu li a:hover {
+    color: #f7c326;
+}
+
+.HeadRight {
+    display: inline-block;
+    float: right;
+}
+
+.HeadRight .CamIcon {
+    width: 22px;
+    height: 25px;
+    background: url('../img/cam_icon.png') no-repeat;
+    display: inline-block;
+    margin-right: 52px;
+    position: relative;
+    top: 9px;
+}
+
+.HeadRight .CamIcon:hover {
+    opacity: 0.5;
+}
+
+.HeadRight .LanguageDiv {
+    display: inline-block;
+    margin-right: 55px;
+}
+
+.HeadRight .LanguageDiv a {
+    font-family: MontserratRegular;
+    color: #4d4c5a;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.HeadRight .LanguageDiv a:hover {
+    color: #f7c326;
+}
+
+.HeadRight .ButtonVideo {
+    width: 48px;
+    height: 48px;
+    background: #15b99b url('../img/play.png') no-repeat;
+    background-position: 18px center;
+    float: right;
+    padding-left: 45px;
+    cursor: pointer;
+    margin: 47px 5px 0 5px;
+    transition: 0.3s;
+}
+
+.HeadRight .ButtonVideo:hover {
+    opacity: 0.7;
+}
+
+.HeadRight .ButtonPDF {
+    width: 48px;
+    height: 48px;
+    background: #54baea url('../img/pdf.png') no-repeat;
+    background-position: center;
+    float: right;
+    padding-left: 45px;
+    cursor: pointer;
+    margin-top: 47px;
+    transition: 0.3s;
+}
+
+.HeadRight .ButtonPDF:hover {
+    opacity: 0.7;
+}
+
+.HeadRight .ButtonCall {
+    width: 48px;
+    height: 48px;
+    background: #f7c326 url('../img/phone_icon.png') no-repeat;
+    background-position: center;
+    float: right;
+    padding-left: 45px;
+    cursor: pointer;
+    margin-top: 47px;
+}
+
+.HeadRight .ButtonCall div {
+    margin-top: 18px;
+    overflow: hidden;
+    height: 16px;
+    line-height: 16px;
+}
+
+.HeadRight .ButtonCall span {
+    color: #fff;
+    font-family: Roboto_Geo_Arm_Mt;
+    font-size: 12px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    top: -3px;
+}
+
+.HeadRight .ButtonCall label {
+    color: #fff;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    top: 0;
+    font-feature-settings: 'case' on;
+}
+
+.HeadRight .ButtonCall:hover span {
+    position: relative;
+    top: -16px;
+}
+
+.HeadRight .ButtonCall:hover label {
+    position: relative;
+    top: -16px;
+    cursor: pointer;
+    font-family: Roboto_Geo_Arm_Mt;
+}
+
+.HomeChooseFlat {
+    background: #f3f7f9;
+}
+
+.PaddingLeft20 {
+    padding-left: 20px;
+}
+
+.HomeChooseFlat .container {
+    width: 1650px;
+}
+
+.HomeChooseFlat .Title {
+    width: 100%;
+    text-align: center;
+    font-family: MontserratLight;
+    font-size: 40px;
+    color: #3a3c3e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 120px
+}
+
+.HomeChooseFlat .Title span {
+    font-family: MontserratBold;
+}
+
+.HomeChooseFlat .FlatSlide {}
+
+.HomeChooseFlat .FlatSlide .Item {
+    background: #fff;
+    display: inline-block;
+    float: left;
+    width: 100%;
+    transition: 0.3s;
+    position: relative;
+}
+
+.HomeChooseFlat .FlatSlide .Item:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.HomeChooseFlat .FlatSlide .Item .Image {
+    padding: 50px;
+    width: 230px;
+    display: inline-block;
+    float: left;
+    border-right: solid #eff4f8 1px;
+}
+
+.HomeChooseFlat .FlatSlide .Item .Image img {
+    height: 155px;
+    width: 100%;
+}
+
+.HomeChooseFlat .FlatSlide .Item .Info {
+    width: calc(100% - 230px);
+    padding: 40px 40px;
+    display: inline-block;
+    float: left;
+}
+
+.HomeChooseFlat .FlatSlide .Item .Info .Title1 {
+    font-size: 24px;
+    color: #15b99b;
+    font-family: MontserratBold;
+    margin-bottom: 33px;
+}
+
+.HomeChooseFlat .FlatSlide .Item .Info .Title1 span {
+    font-size: 13px;
+    position: relative;
+    top: -10px;
+    left: 2px;
+}
+
+.HomeChooseFlat .FlatSlide .Item .Info .List1 {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    margin-bottom: 9px;
+}
+
+.HomeChooseFlat .FlatSlide .Item .Info .List1 span {
+    color: #4d4c5a;
+    opacity: 0.5;
+    font-size: 10px;
+    width: 100%;
+    position: relative;
+    left: 1px;
+}
+
+.HomeChooseFlat .FlatSlide .Item .Info .List1 label {
+    color: #3a3c3e;
+    font-size: 14px;
+    font-family: MontserratSemiBold;
+    width: 100%;
+}
+
+.HomeChooseFlat .FlatSlide .Item .Info .List1 label i {
+    font-family: MontserratSemiBold;
+    font-size: 8px;
+    position: relative;
+    top: -4px;
+    font-style: normal;
+}
+
+.HomeChooseFlat .FlatSlide .Item .Info .List1.Full {
+    width: 100%;
+}
+
+.HomeChooseFlat .FlatSlide .Item:hover {
+    background: #54baea;
+}
+
+.HomeChooseFlat .FlatSlide .Item:hover .Image {
+    border-right: solid #64c0eb 1px;
+}
+
+.HomeChooseFlat .FlatSlide .Item:hover .Title1 {
+    color: #fff;
+}
+
+.HomeChooseFlat .FlatSlide .Item:hover .Info .List1 span {
+    color: #fff;
+}
+
+.HomeChooseFlat .FlatSlide .Item:hover .Info .List1 label {
+    color: #fff;
+}
+
+.FlatFooter {
+    padding-top: 130px;
+    padding-bottom: 140px;
+    display: inline-block;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.FlatTypesButton {
+    height: 60px;
+    line-height: 60px;
+    background-color: #15b99b;
+    width: auto;
+    color: #fff;
+    padding-left: 28px;
+    font-size: 13px;
+    font-family: MontserratBold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding-right: 34px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.FlatTypesButton span {
+    width: 18px;
+    height: 7px;
+    background: url('../img/arr1.png') no-repeat;
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.FlatTypesButton:hover {
+    background: #f7c326;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* HOME PAGE */
+
+.ScrollDown {
+    width: 320px;
+    height: 120px;
+    background: #fff;
+    line-height: 120px;
+    font-family: MontserratLight;
+    font-size: 16px;
+    color: #3a3c3e;
+    text-align: center;
+    letter-spacing: 2px;
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 285px;
+    left: -100px;
+    z-index: 1;
+    transition: background, color 0.3s;
+}
+
+.ScrollDown:focus {
+    text-decoration: none;
+    color: #3a3c3e;
+}
+
+.ScrollDown span {
+    font-family: MontserratBold
+}
+
+.ScrollDown:after {
+    content: '';
+    width: 125px;
+    height: 2px;
+    background: #ffe303;
+    position: absolute;
+    left: -125px;
+    top: 50%;
+}
+
+.ScrollDown:hover {
+    background: #ffe303;
+    color: #fff;
+    text-decoration: none;
+}
+
+.HomeSlide {
+    width: 100%;
+    height: 100%;
+    background: #f3f7f9;
+}
+
+.HomeSlide .slick-slider .slick-track,
+.HomeSlide .slick-slider .slick-list {
+    height: 100%;
+}
+
+.HomeSlideControl {
+    display: inline-block;
+    float: left;
+    width: 32%;
+    height: 185px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.HomeSlideControl .slick-dots {
+    width: 100%;
+    bottom: 35px;
+    position: absolute;
+}
+
+.slick-dots li {
+    border: none;
+    width: 11px;
+    padding-bottom: 0;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.slick-dots li button {
+    width: 11px;
+    height: 11px;
+    background: url('../img/dots_1.png') no-repeat;
+    text-indent: -999999px;
+    transition: 0.3s;
+}
+
+.slick-dots li.slick-active button {
+    background: url('../img/dots_2.png') no-repeat;
+}
+
+.slick-dots li:hover button {
+    background: url('../img/dots_3.png') no-repeat;
+}
+
+.HomeSlideLeft {
+    background: #f3f7f9;
+    width: 30%;
+    height: 100%;
+    overflow: hidden
+}
+
+.HomeSlideLeft .container {}
+
+.HomeSlideLeft .SlideInfoLeft {
+    width: 800px;
+    height: 380px;
+    background: rgba(44, 81, 163, 0.9);
+    position: absolute;
+    bottom: 125px;
+    z-index: 9;
+}
+
+.HomeSlideLeft .SlideInfoLeft .Item {
+    overflow: hidden;
+    padding: 48px 70px 60px 56px;
+    height: 100%;
+    position: relative;
+}
+
+.HomeSlideLeft .SlideInfoLeft .Item .Title {
+    color: #fff;
+    font-size: 60px;
+    font-family: Roboto_Geo_Arm_Mt;
+    text-transform: uppercase;
+    height: 170px;
+    line-height: 70px;
+}
+
+.HomeSlideLeft .SlideInfoLeft .Item .Text {
+    color: #fff;
+    font-size: 18px;
+    font-family: RobotoNusx;
+    display: inline-flex;
+    align-items: center;
+}
+
+.HomeSlideLeft .SlideInfoLeft .Item .ReadMore {
+    height: 50px;
+    line-height: 50px;
+    background-color: #f7c326;
+    width: auto;
+    color: #fff;
+    padding-left: 28px;
+    font-size: 13px;
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding-right: 34px;
+    position: absolute;
+    bottom: 0;
+    left: 56px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.HomeSlideLeft .SlideInfoLeft .Item .ReadMore span {
+    width: 18px;
+    height: 7px;
+    background: url('../img/arr1.png') no-repeat;
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.HomeSlideLeft .SlideInfoLeft .Item .ReadMore:hover {
+    background: #15b99b;
+}
+
+.HomeSlideImage {
+    width: 68%;
+    float: right;
+    height: 100%;
+    position: relative;
+}
+
+.HomeSlideImage .Item {
+    height: 100%;
+    position: relative;
+}
+
+.HomeSlideImage .Item .Image {
+    height: 100%;
+}
+
+.HomeSlideImage .Item .Image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.HomeSlideImage .Item .WatchVideo {
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    bottom: 65px;
+    left: 339px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.HomeSlideImage .Item .WatchVideo span {
+    font-family: RobotoNusx;
+    color: #fff;
+    font-size: 15px;
+}
+
+.HomeSlideImage .Item .WatchVideo label {
+    font-family: RobotoNusxBold;
+    font-weight: normal;
+    color: #fff;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.HomeSlideImage .Item .WatchVideo div {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background: #15b99b url('../img/play.png') no-repeat;
+    background-position: center center;
+    margin-left: 30px;
+}
+
+.HomeSlideImage .Item .PdfIcon {
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    bottom: 65px;
+    right: 260px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.HomeSlideImage .Item .PdfIcon span {
+    font-family: RobotoNusx;
+    color: #fff;
+    font-size: 15px;
+}
+
+.HomeSlideImage .Item .PdfIcon label {
+    font-family: RobotoNusxBold;
+    font-weight: normal;
+    color: #fff;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.HomeSlideImage .Item .PdfIcon div {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background: #54baea url('../img/pdf.png') no-repeat;
+    background-position: center center;
+    margin-left: 30px;
+}
+
+.HomeService {
+    width: 100%;
+    margin-top: 120px;
+    padding-bottom: 120px;
+    background: #f3f7f9;
+}
+
+.HomeService .Head {
+    padding-top: 105px;
+    background-color: #15b99b;
+    background-image: url('../img/color_bg.png');
+}
+
+.HomeService .Head .Info .Title {
+    font-family: Roboto_Geo_Arm_Mt;
+    color: #fff;
+    font-size: 54px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 35px;
+    position: relative;
+}
+
+.HomeService .Head .Info .Title:after {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background: #5cceb9;
+    position: absolute;
+    bottom: -8px;
+    left: 10px;
+}
+
+.HomeService .Head .Info .Title span {
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+}
+
+.HomeService .Head .Info .Text {
+    font-family: RobotoNusx;
+    font-size: 14px;
+    color: #fff;
+    line-height: 22px;
+}
+
+.HomeService .Head .Info .ReadMore {
+    height: 60px;
+    line-height: 60px;
+    background-color: #f7c326;
+    width: auto;
+    color: #fff;
+    padding-left: 28px;
+    font-size: 13px;
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding-right: 34px;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-top: 68px;
+}
+
+.HomeService .Head .Info {
+    padding-bottom: 255px;
+}
+
+.HomeService .Head .Info .ReadMore span {
+    width: 18px;
+    height: 7px;
+    background: url('../img/arr1.png') no-repeat;
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.HomeService .Head .Info .ReadMore:hover {
+    background: #4162ac;
+}
+
+.HomeService .Content {
+    margin-top: -175px;
+}
+
+.HomeService .Content .row {
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.HomeService .Content .col-sm-3 {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.HomeService .Content .Item {
+    background: #fff;
+    padding: 44px 40px;
+    height: 560px;
+    margin-bottom: 2px;
+    display: block;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.HomeService .Content .Item .Icon {
+    margin-bottom: 40px;
+}
+
+.HomeService .Content .Item .Icon img {
+    max-height: 54px;
+}
+
+.HomeService .Content .Item .Title {
+    font-family: Roboto_Geo_Arm_Mt;
+    font-size: 14px;
+    position: relative;
+    top: -1px;
+    color: #3a3c3e;
+}
+
+.HomeService .Content .Item .Title span {
+    font-family: Roboto_Geo_Arm_Mt_Bold
+}
+
+.HomeService .Content .Item .Text {
+    font-size: 12px;
+    color: #3a3c3e;
+    font-family: RobotoNusx;
+    padding-top: 44px;
+    position: relative;
+}
+
+.HomeService .Content .Item .Text:after {
+    content: '';
+    width: 40px;
+    height: 1px;
+    background: #15b99b;
+    position: absolute;
+    top: 16px;
+    left: 0;
+    z-index: 9;
+}
+
+.HomeService .Content .Item .Text p {
+    margin-bottom: 25px;
+}
+
+.HomeService .Content .Item:hover {
+    background: #4162ac;
+    transform: scale(1.05);
+    z-index: 99;
+    position: relative;
+}
+
+.HomeService .Content .Item:hover .Title {
+    color: #fff;
+}
+
+.HomeService .Content .Item:hover .Text {
+    color: #fff;
+}
+
+.HomeService .Content .slick-list {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.HomeService .ControlService {
+    width: 165px;
+}
+
+.HomeService .ServiceSlide {
+    width: calc(100% - 165px);
+    display: inline-block;
+    float: right;
+}
+
+.HomeService .ControlService {
+    margin-top: 260px;
+}
+
+.HomeService .ControlService .ServicePrev {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    float: left;
+    background: url('../img/service_left.png') no-repeat;
+    background-size: 18px 6px;
+    cursor: pointer;
+}
+
+.HomeService .ControlService .ServiceNext {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    float: left;
+    background: url('../img/service_right.png') no-repeat;
+    background-size: 18px 6px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+
+.HomeService .ControlService .ServicePrev:hover {
+    opacity: 0.7;
+}
+
+.HomeService .ControlService .ServiceNext:hover {
+    opacity: 0.7;
+}
+
+.HomeWhyBatumi .container-fluid {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+.HomeWhyBatumi .LeftImage {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.HomeWhyBatumi .LeftImage:hover {
+    transform: scale(1.1);
+}
+
+.HomeWhyBatumi .LeftImage img {
+    width: 100%;
+}
+
+.HomeWhyBatumi .InfoDiv {
+    background: rgba(44, 81, 163, 0.9);
+    color: #fff;
+    padding: 49px 50px 70px 53px;
+    width: 100%;
+    margin-left: -265px
+}
+
+.HomeWhyBatumi .InfoDiv .Title {
+    font-family: Roboto_Geo_Arm_Mt;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.HomeWhyBatumi .InfoDiv .Title span {
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+}
+
+.HomeWhyBatumi .InfoDiv .List {
+    margin-top: 65px;
+}
+
+.HomeWhyBatumi .InfoDiv .List li {
+    font-family: RobotoNusxBold;
+    font-size: 16px;
+    background: url('../img/list_icon.png') no-repeat center left;
+    padding-left: 40px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.HomeWhyBatumi .ReadMore {
+    height: 60px;
+    line-height: 60px;
+    background-color: #f7c326;
+    width: auto;
+    color: #fff;
+    padding-left: 28px;
+    font-size: 13px;
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding-right: 34px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.HomeWhyBatumi .ReadMore span {
+    width: 18px;
+    height: 7px;
+    background: url('../img/arr1.png') no-repeat;
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.HomeWhyBatumi .ReadMore:hover {
+    background: #4162ac;
+}
+
+.ContentDiv {
+    padding-top: 80px;
+    padding-bottom: 230px;
+    position: relative;
+}
+
+.ContentDiv.WithBackground:after {
+    content: '';
+    width: 70%;
+    height: 100%;
+    background: url('../img/color_bg.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.ContentDiv .container {
+    position: relative;
+    z-index: 2;
+}
+
+.ContentDiv .Info {
+    padding-top: 100px;
+}
+
+.ContentDiv .Info .Title {
+    font-family: Roboto_Geo_Arm_Mt;
+    font-size: 54px;
+}
+
+.ContentDiv .Info .Title span {
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+}
+
+.ContentDiv .Info .Text {
+    font-size: 16px;
+    font-family: RobotoNusx;
+    font-weight: normal;
+    position: relative;
+    padding-top: 92px;
+    padding-right: 180px;
+}
+
+.ContentDiv .Info .Text:after {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background: #6c86bf;
+    position: absolute;
+    top: 49px;
+    left: 0;
+    z-index: 9;
+}
+
+.ContentDiv .Info .Text a {
+    color: #f7c326;
+}
+
+.ContentDiv .Info .Text li {
+    list-style: none;
+    color: #3a3c3e;
+    font-family: RobotoNusxBold;
+    font-size: 16px;
+    padding-left: 50px;
+    background: url('../img/dots_3.png') no-repeat;
+    background-position: 0 7px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.ContentDiv .Info .Text p {
+    margin-bottom: 25px;
+}
+
+.ContentDiv .Info .Text.Noline {
+    padding-top: 64px;
+}
+
+.ContentDiv .Info .Text.Noline:after {
+    display: none;
+}
+
+.ContentDiv .Image {
+    width: calc(100% + 130px);
+    height: 560px;
+    position: relative;
+    overflow: hidden
+}
+
+.ContentDiv .Image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.ContentDiv .Image img:hover {
+    transform: scale(1.1);
+}
+
+.ContentDiv.BackgroundBlue {
+    background: -webkit-linear-gradient(left, #2c51a3 70%, #ffffff 50%);
+    background: -moz-linear-gradient(left, #2c51a3 70%, #ffffff 50%);
+    background: -o-linear-gradient(left, #2c51a3 70%, #ffffff 50%);
+    background: -ms-linear-gradient(left, #2c51a3 70%, #ffffff 50%);
+    background: linear-gradient(left, #2c51a3 70%, #ffffff 50%);
+}
+
+.MarginTop120 {
+    margin-top: 120px;
+}
+
+.ContentDiv.LeftImage {
+    left: -130px;
+}
+
+.ContentDiv.LeftImage .Info {
+    position: relative;
+    left: 175px;
+}
+
+.ContentDiv.LeftImage .Title {
+    color: #f7c326;
+}
+
+.ContentDiv.LeftImage .Text {
+    color: #3a3c3e;
+    padding-right: 0;
+    padding-right: 150px;
+}
+
+.ContentDiv .Info .Text:after {
+    background: #f7c326;
+}
+
+.ContentDiv.LeftImage .Info {
+    padding-top: 120px;
+}
+
+.ContentWithHeader {
+    width: 100%;
+    margin-top: 120px;
+    padding-bottom: 120px;
+    background: #f3f7f9;
+}
+
+.ContentWithHeader .Head {
+    padding-top: 145px;
+    height: 580px;
+    background-color: #15b99b;
+    background-image: url('../img/color_bg.png');
+}
+
+.ContentWithHeader .Head .Title {
+    text-align: center;
+    font-size: 54px;
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+    color: #fff;
+}
+
+.ContentWithHeader .Content {
+    margin-top: -250px;
+}
+
+.ContentWithHeader .Content .row {
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.ContentWithHeader .Content .col-sm-3 {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.ContentWithHeader .Content .Item {
+    background: #fff;
+    padding: 44px 40px;
+    height: 560px;
+    margin-bottom: 2px;
+    transition: 0.3s;
+}
+
+.ContentWithHeader .Content .Item:hover {
+    background: #4162ac;
+    transform: scale(1.05);
+    z-index: 99;
+    position: relative;
+}
+
+.ContentWithHeader .Content .Item:hover .Title {
+    color: #fff;
+}
+
+.ContentWithHeader .Content .Item:hover .Text {
+    color: #fff;
+}
+
+.ContentWithHeader .Content .Item .Icon {
+    margin-bottom: 40px;
+}
+
+.ContentWithHeader .Content .Item .Icon img {
+    max-height: 54px;
+}
+
+.ContentWithHeader .Content .Item .Title {
+    font-family: Roboto_Geo_Arm_Mt;
+    font-size: 14px;
+    position: relative;
+    top: -1px;
+}
+
+.ContentWithHeader .Content .Item .Title span {
+    font-family: Roboto_Geo_Arm_Mt_Bold
+}
+
+.ContentWithHeader .Content .Item .Text {
+    font-size: 12px;
+    color: #3a3c3e;
+    font-family: RobotoNusx;
+    padding-top: 44px;
+    position: relative;
+}
+
+.ContentWithHeader .Content .Item .Text:after {
+    content: '';
+    width: 40px;
+    height: 1px;
+    background: #15b99b;
+    position: absolute;
+    top: 16px;
+    left: 0;
+    z-index: 9;
+}
+
+.ContentWithHeader .Content .Item .Text p {
+    margin-bottom: 25px;
+}
+
+.MarginTop220 {
+    margin-top: 220px;
+}
+
+.MarginTop150 {
+    margin-top: 0px;
+}
+
+.MarginBottom130 {
+    margin-bottom: 50px;
+}
+
+.PaddingLeft250 {
+    padding-left: 250px;
+}
+
+.MarginTop130 {
+    margin-top: 130px;
+}
+
+.Top170 {
+    top: 10px !important;
+}
+
+.BlueColor {
+    color: #54baea !important;
+}
+
+.BlueColor:after {
+    background: #54baea !important
+}
+
+.GreenTextContent {
+    width: 100%;
+}
+
+.GreenTextContent .Info {
+    position: relative;
+    top: -60px;
+}
+
+.GreenTextContent .Info .Title {
+    font-family: Roboto_Geo_Arm_Mt;
+    font-size: 60px;
+    color: #16b99b;
+    position: relative;
+}
+
+.GreenTextContent .Info .Title span {
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+}
+
+.GreenTextContent .Info .Title:after {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: #16b99b;
+    position: absolute;
+    top: 143px;
+    left: 3px;
+}
+
+.GreenTextContent .Info .Text {
+    font-size: 16px;
+    font-family: RobotoNusx;
+    color: #3a3c3e;
+    font-weight: normal;
+    position: relative;
+    padding-top: 100px;
+    padding-right: 120px;
+}
+
+.GreenTextContent .Info .Text p {
+    margin-bottom: 32px;
+}
+
+.GreenTextContent .Info .Text li {
+    list-style: none;
+    color: #3a3c3e;
+    font-family: RobotoNusxBold;
+    font-size: 16px;
+    padding-left: 50px;
+    background: url('../img/dots_2.png') no-repeat;
+    background-position: 0 7px;
+    margin-bottom: 16px;
+    line-height: 30px;
+}
+
+.GreenTextContent .Image {
+    width: 100%;
+    height: 470px;
+    overflow: hidden
+}
+
+.GreenTextContent .Image img {
+    width: 100% !important;
+    transition: 0.5s;
+}
+
+.GreenTextContent .Image img:hover {
+    transform: scale(1.1);
+}
+
+.GreenTextContent .RightImage {
+    padding-bottom: 150px;
+}
+
+.ContentService {
+    width: 100%;
+    margin-top: 120px;
+    padding-bottom: 120px;
+    background: #f3f7f9;
+}
+
+.ContentService .Head {
+    padding-top: 145px;
+    height: 800px;
+    background-color: #2c51a3;
+    background-image: url('../img/color_bg.png');
+}
+
+.ContentService .Head .Title {
+    text-align: center;
+    font-size: 54px;
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+    color: #fff;
+}
+
+.ContentService .Content {
+    margin-top: -465px;
+}
+
+.ContentService .Content .row {
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.ContentService .Content .col-sm-3,
+.ContentService .Content .col-sm-4 {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.ContentService .Content .Item {
+    background: #fff;
+    padding: 47px 40px;
+    height: 350px;
+    margin-bottom: 2px;
+    transition: 0.3s
+}
+
+.ContentService .Content .Item:hover {
+    background: #4162ac;
+    transform: scale(1.05);
+    z-index: 99;
+    position: relative;
+}
+
+.ContentService .Content .Item:hover .Title {
+    color: #fff;
+}
+
+.ContentService .Content .Item:hover .Text {
+    color: #fff;
+}
+
+.ContentService .Content .Item .Title {
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+    font-size: 16px;
+    position: relative;
+    top: -1px;
+    color: #2c51a3;
+    margin-bottom: 24px;
+}
+
+.ContentService .Content .Item .Text {
+    font-size: 12px;
+    color: #3a3c3e;
+    font-family: RobotoNusx;
+    padding-top: 50px;
+    position: relative;
+}
+
+.ContentService .Content .Item .Text:after {
+    content: '';
+    width: 40px;
+    height: 1px;
+    background: #2c51a3;
+    position: absolute;
+    top: 16px;
+    left: 0;
+    z-index: 9;
+}
+
+.ContentService .Content .Item:hover .Text:after {
+    background: #fff;
+}
+
+.ContentService .Content .Item .Text p {
+    margin-bottom: 25px;
+}
+
+.ContentService .Content .BigInfo {
+    position: relative;
+    top: -120px;
+}
+
+.ContentService .Content .BigInfo .Title {
+    font-size: 54px;
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+    color: #fff;
+}
+
+.ContentService .Content .BigInfo .Text {
+    font-size: 18px;
+    font-family: RobotoNusx;
+    position: relative;
+    padding-top: 143px;
+    padding-right: 200px;
+}
+
+.ContentService .Content .BigInfo .Text:after {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background: #8097c8;
+    position: absolute;
+    top: 42px;
+    left: 0;
+    z-index: 9;
+}
+
+.ClearBoth1 {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: 140px;
+}
+
+.PaddingLeft50 {
+    padding-left: 50px;
+}
+
+.ParallaxImage {
+    width: 100%;
+    height: 700px;
+}
+
+.ParallaxBackground {
+    height: 700px;
+    background: transparent;
+}
+
+
+/* PROJECT */
+
+.ProjectContentDiv {
+    height: 745px;
+    position: relative;
+}
+
+.ProjectContentDiv.WithBackground:after {
+    content: '';
+    width: 70%;
+    height: 100%;
+    background: url('../img/color_bg.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.ProjectContentDiv.BackgroundBlue {
+    background: -webkit-linear-gradient(left, #2c51a3 70%, #ffffff 50%);
+    background: -moz-linear-gradient(left, #2c51a3 70%, #ffffff 50%);
+    background: -o-linear-gradient(left, #2c51a3 70%, #ffffff 50%);
+    background: -ms-linear-gradient(left, #2c51a3 70%, #ffffff 50%);
+    background: linear-gradient(left, #2c51a3 70%, #ffffff 50%);
+}
+
+.MapAreaDiv {
+    position: relative;
+    z-index: 99;
+    top: 60px;
+}
+
+.MapAreaDiv img {
+    height: 100%;
+    width: 100%;
+}
+
+.FloorToolTip {
+    width: 170px;
+    background: #15b99b;
+    height: 60px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.FloorToolTip span {
+    font-size: 13px;
+    font-family: Roboto_Geo_Arm_Mt;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    margin-top: 7px;
+}
+
+.FloorToolTip span .PlanIcon {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    float: right;
+    /*background:#fff;*/
+    position: absolute;
+    left: 110%;
+    top: 0;
+    /*box-shadow:0 0 10px rgba(0,0,0,0.5)*/
+}
+
+.FloorToolTip label {
+    font-family: RobotoNusxItalic;
+    font-size: 11px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.FloorToolTip:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -4px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #15b99b;
+}
+
+.tooltip_3 {
+    display: none;
+    position: absolute;
+    z-index: 99;
+}
+
+.FloorToolTip.Color1 {
+    background: #15b99b;
+}
+
+.FloorToolTip.Color1:after {
+    border-top: 8px solid #15b99b;
+}
+
+.FloorToolTip.Color1 span .PlanIcon {
+    background: url('../img/oleandra_icon.png') no-repeat;
+    background-size: 100% 100%
+}
+
+.FloorToolTip.Color2 {
+    background: #fec20e;
+}
+
+.FloorToolTip.Color2:after {
+    border-top: 8px solid #fec20e;
+}
+
+.FloorToolTip.Color2 span .PlanIcon {
+    background: url('../img/mziuri_icon.png') no-repeat;
+    background-size: 100% 100%
+}
+
+.FloorToolTip.Color3 {
+    background: #54baea;
+}
+
+.FloorToolTip.Color3:after {
+    border-top: 8px solid #54baea;
+}
+
+.FloorToolTip.Color3 span .PlanIcon {
+    background: url('../img/hortenzia_icon.png') no-repeat;
+    background-size: 100% 100%
+}
+
+.FloorToolTip222 {
+    width: 150px;
+    background: #15b99b;
+    height: 74px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.FloorToolTip222 span {
+    font-size: 20px;
+    font-family: Roboto_Geo_Arm_Mt;
+    color: #fff;
+    width: 100%;
+    letter-spacing: 0.5px;
+}
+
+.FloorToolTip222 span i {
+    font-size: 12px;
+    font-style: normal;
+    position: relative;
+    top: -6px;
+}
+
+.FloorToolTip222 label {
+    font-family: Roboto_Geo_Arm_Mt;
+    font-size: 12px;
+    color: #fff;
+    font-weight: normal;
+    width: 100%;
+}
+
+.FloorToolTip222:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -4px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #15b99b;
+}
+
+.tooltip_4 {
+    display: none;
+    position: absolute;
+    z-index: 99;
+}
+
+.FloorImageDiv {
+    position: relative;
+    z-index: 99;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+.FloorImageDiv img {
+    height: 100%
+}
+
+.FloorImageDiv .ImgMap {
+    margin: 0 auto;
+}
+
+.ImgMap {
+    width: 1100px !important;
+    max-height: 100% !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% auto !important;
+    height: 414px !important;
+}
+
+.ImgMap canvas,
+.ImgMap map {
+    width: 1100px !important;
+    height: 414px !important;
+}
+
+.ImgMap.ImgMap22 {
+    height: 486px !important;
+}
+
+.ImgMap.ImgMap22 canvas,
+.ImgMap.ImgMap22 map {
+    height: 486px !important;
+}
+
+
+/* FLOOR */
+
+.FloorContentDiv {
+    position: relative;
+    z-index: 9;
+}
+
+.FloorContentDiv .WithBackground {
+    height: 745px;
+    position: absolute;
+    width: 100%;
+}
+
+.FloorContentDiv .WithBackground:after {
+    content: '';
+    width: 68%;
+    height: 100%;
+    background: url('../img/color_bg.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.FloorContentDiv .BackgroundBlue {
+    background: -webkit-linear-gradient(left, #2c51a3 68%, #ffffff 32%);
+    background: -moz-linear-gradient(left, #2c51a3 68%, #ffffff 32%);
+    background: -o-linear-gradient(left, #2c51a3 68%, #ffffff 32%);
+    background: -ms-linear-gradient(left, #2c51a3 68%, #ffffff 32%);
+    background: linear-gradient(left, #2c51a3 68%, #ffffff 32%);
+}
+
+.FloorPageDiv {
+    position: relative;
+    z-index: 9;
+    padding-top: 50px;
+}
+
+.FloorPageDiv .Content {
+    width: 100%;
+}
+
+.FloorPageDiv .Head {}
+
+.FloorPageDiv .Head .Title {
+    height: 120px;
+    line-height: 120px;
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+    color: #fff;
+    font-size: 54px;
+}
+
+.FloorPageDiv .FloorSlide {
+    width: 100%;
+    height: 120px;
+    background: #15b99b;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+
+.FloorSlide .SmallTitle {
+    position: absolute;
+    color: #fff;
+    top: -38px;
+    left: 0;
+    font-family: Roboto_Geo_Arm_Mt;
+    font-size: 20px;
+}
+
+.FloorPageDiv .FloorSlide .LeftArrowNumbers {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    float: left;
+    background: url(../img/arr1_left.png) no-repeat;
+    background-position: center center;
+    position: relative;
+    top: 35px;
+    cursor: pointer
+}
+
+.FloorPageDiv .FloorSlide .LeftArrowNumbers:hover {
+    background: #f7c326 url(../img/arr1_left.png) no-repeat;
+    background-position: center center;
+}
+
+.FloorPageDiv .FloorSlide .RightArrowNumbers {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    float: left;
+    background: url(../img/arr1.png) no-repeat;
+    background-position: center center;
+    position: relative;
+    top: 35px;
+    cursor: pointer
+}
+
+.FloorPageDiv .FloorSlide .RightArrowNumbers:hover {
+    background: #f7c326 url(../img/arr1.png) no-repeat;
+    background-position: center center;
+}
+
+.NumberContent {
+    width: calc(100% - 100px);
+    display: inline-block;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.NumberContent .SlideNum {
+    position: relative;
+    z-index: 99;
+    margin-top: 35px;
+}
+
+.NumberContent .SlideNum a {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    font-family: Roboto_Geo_Arm_Mt;
+    font-size: 12px;
+}
+
+.NumberContent .SlideNum a:hover {
+    background: #fff;
+    color: #15b99b;
+    font-size: 14px;
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+    text-decoration: none;
+}
+
+.FlatInfoDiv {
+    width: 550px;
+    background: #fff;
+    padding: 57px 90px;
+    margin-top: 40px;
+    box-shadow: 0 0 80px rgba(45, 62, 101, 0.2);
+    position: relative;
+    z-index: 1;
+    min-height: 700px;
+}
+
+.FlatInfoDiv .FlatHead {}
+
+.FlatInfoDiv .FlatHead span {
+    color: #2c51a3;
+    font-size: 60px;
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+    float: left;
+}
+
+.FlatInfoDiv .FlatHead span label {
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+}
+
+.FlatInfoDiv .FlatHead div {
+    display: inline-block;
+    float: right;
+    height: 34px;
+    line-height: 34px;
+    font-family: RobotoNusxItalic;
+    background: #f7c326;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    margin-top: 22px;
+}
+
+.FlatInfoDiv .InfoList {
+    padding-top: 65px;
+    width: 100%;
+}
+
+.FlatInfoDiv .InfoList .List {}
+
+.FlatInfoDiv .InfoList .List li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    width: 100%;
+    border-bottom: solid #f5f5f5 1px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    font-family: Roboto_Geo_Arm_Mt;
+}
+
+.FlatInfoDiv .InfoList .List li span {
+    color: #3a3c3e;
+    font-size: 10.5px;
+    font-family: Roboto_Geo_Arm_Mt;
+}
+
+.FlatInfoDiv .InfoList .List li div {
+    display: inline-block;
+    float: right;
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+    color: #3a3c3e;
+    letter-spacing: 0.5px;
+}
+
+.FlatInfoDiv .InfoList .List li div label {
+    font-size: 9px;
+    position: relative;
+    top: -5px;
+}
+
+.FlatInfoDiv .Info {
+    width: 100%;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.FlatInfoDiv .Info .DownloadButton {
+    height: 50px;
+    line-height: 50px;
+    font-family: Roboto_Geo_Arm_Mt;
+    text-transform: uppercase;
+    color: #fff;
+    background: #54baea;
+    display: inline-block;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 12.5px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.FlatInfoDiv .Info .DownloadButton:hover {
+    background: #f7c326
+}
+
+.FlatInfoDiv .Info .FlootSocial {
+    float: right;
+    display: inline-block;
+    height: 50px;
+    border: solid #54baea 1px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+
+.FlatInfoDiv .Info .FlootSocial a {
+    padding-left: 38px;
+    padding-right: 38px;
+    color: #54baea;
+    position: relative;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.FlatInfoDiv .Info .FlootSocial a:hover {
+    color: #f7c326;
+}
+
+.FlatInfoDiv .Info .FlootSocial a:first-child:after {
+    content: '';
+    position: absolute;
+    right: -4px;
+    top: 1px;
+    height: 14px;
+    width: 1px;
+    background: #54baea;
+}
+
+.RightBitImage {
+    width: calc(100% - 550px);
+    display: inline-block;
+    float: left;
+    background: #fff;
+    margin-top: 100px;
+    border: solid #f3f7f9 1px;
+    height: 600px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    position: relative;
+}
+
+.RightBitImage .Image {}
+
+.RightBitImage .Image a {
+    display: inline-block;
+    position: relative;
+}
+
+.RightBitImage .Image a:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: transparent;
+    z-index: 1
+}
+
+.RightBitImage .Image img {
+    display: inline-block;
+    max-height: 480px;
+}
+
+.RightBitImage .Image:after {
+    content: "\f00e";
+    font: normal normal normal 14px/1 FontAwesome;
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -30px;
+    margin-top: -25px;
+    background: #f7c326;
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.RightBitImage .Image:hover:after {
+    opacity: 1
+}
+
+.FloorImageDiv {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    background: #fff;
+    margin-top: 50px;
+    border: solid #f3f7f9 1px;
+    height: 650px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    position: relative;
+}
+
+.FloorContentDiv .ImageGallery {
+    position: relative;
+    top: 86px;
+}
+
+.FloorContentDiv .ImageGallery .Title {
+    color: #3a3c3e;
+    font-size: 20px;
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+    margin-bottom: 33px;
+}
+
+.FloorContentDiv .ImageGallery .GallerySlide {
+    width: 100%;
+}
+
+.FloorContentDiv .ImageGallery .GallerySlide .col-sm-2 {
+    width: 20%;
+}
+
+.FloorContentDiv .ImageGallery .GallerySlide .Item {}
+
+.FloorContentDiv .ImageGallery .GallerySlide .Item a {
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.FloorContentDiv .ImageGallery .GallerySlide .Item a:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: transparent;
+    z-index: 1
+}
+
+.FloorContentDiv .ImageGallery .GallerySlide .Item a:hover {
+    opacity: 0.7
+}
+
+.FloorContentDiv .ImageGallery .GallerySlide .Item img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.FloorContentDiv .ImageGallery .GallerySlide .Item .Image {
+    position: relative;
+}
+
+.FloorContentDiv .ImageGallery .GallerySlide .Item .Image:after {
+    content: "\f00e";
+    font: normal normal normal 14px/1 FontAwesome;
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -30px;
+    margin-top: -25px;
+    background: #f7c326;
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+    opacity: 0;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 1
+}
+
+.FloorContentDiv .ImageGallery .GallerySlide .Item:hover .Image:after {
+    opacity: 1
+}
+
+
+/* FOOTER CONTACT */
+
+.FooterContact {
+    padding-top: 135px;
+    background: #f3f7f9 url('../img/map_bg.jpg') no-repeat;
+    background-position: right bottom;
+    width: 100%;
+    position: relative;
+}
+
+.FooterContact .Contact1 {}
+
+.FooterContact .Contact1 .FootLogo {
+    width: 99px;
+    height: 127px;
+    background: url('../img/foot_logo.png') no-repeat;
+    display: inline-block;
+}
+
+.FooterContact .Contact1 .Title {
+    width: 100%;
+    margin-top: 115px;
+    margin-bottom: 90px;
+    font-size: 36px;
+    color: #15b99b;
+    font-family: Roboto_Geo_Arm_Mt;
+    text-transform: uppercase;
+}
+
+.FooterContact .Contact1 .Title span {
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+}
+
+.FooterContact .Contact1 .ContactInfo {
+    margin-bottom: 100px;
+}
+
+.FooterContact .Contact1 .ContactInfo li {
+    list-style: none;
+    font-size: 15px;
+    font-family: Roboto_Geo_Arm_Mt;
+}
+
+.FooterContact .Contact1 .ContactInfo li {
+    margin-bottom: 10px;
+    color: #3a3c3e;
+}
+
+.FooterContact .Contact1 .ContactInfo li span {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    padding-right: 5px;
+}
+
+.FooterContact .Contact1 .ContactInfo li i {
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.FooterContact .Contact1 .ContactInfo li:nth-child(2) i {
+    font-size: 18px !important;
+}
+
+.FooterContact .Contact1 .ContactInfo li a {
+    color: #3a3c3e;
+    transition: 0.3s;
+}
+
+.FooterContact .Contact1 .ContactInfo li a:hover,
+.FooterContact .Contact1 .ContactInfo li:hover i {
+    color: #f7c326;
+    text-decoration: none;
+}
+
+.FooterContact .Contact1 .ContactInfo li.Email {
+    font-size: 15px;
+    margin-bottom: 60px;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.FooterContact .Contact1 .ContactInfo li.Address {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.FooterContact .Contact1 .ContactInfo li.Address span {
+    margin-top: 10px;
+    display: inline-block;
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+.FooterContact .Contact1 .FootSocial {
+    margin-bottom: 50px;
+    position: relative;
+    top: -20px;
+}
+
+.FooterContact .Contact1 .FootSocial a {
+    font-family: MontserratLight;
+    color: #3a3c3e;
+    font-size: 13px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+
+/* FOOTER */
+
+.FooterDiv {
+    height: 150px;
+    width: 100%;
+    background-color: #15b99b;
+    background-image: url('../img/color_bg.png');
+    position: relative;
+}
+
+.FooterDiv:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #15b99b;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+}
+
+.FooterDiv .CopyRight {
+    font-family: MontserratLight;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    position: relative;
+}
+
+.FooterDiv .CopyRight span {
+    font-family: MontserratBold;
+}
+
+.FooterDiv .CreadetBy {
+    font-family: MontserratLight;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    float: right;
+}
+
+.FooterDiv .CreadetBy a {
+    width: 41px;
+    height: 14px;
+    background: url('../img/shindi.png') no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    top: 0px;
+    left: 15px;
+    display: inline-block;
+}
+
+.ScrollTop {
+    width: 80px;
+    height: 200px;
+    background: #fff url('../img/to_up.png') no-repeat;
+    background-position: center 26px;
+    position: absolute;
+    left: calc(50% - 40px);
+    bottom: -2px;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.ScrollTop .Text {
+    color: #f7c326;
+    font-family: MontserratLight;
+    font-size: 13px;
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 40px;
+    left: 5px;
+}
+
+.ScrollTop .Text span {
+    font-family: MontserratBold;
+}
+
+.ScrollTop:hover {
+    background-color: #2c51a3;
+}
+
+.ScrollTop:hover .Title {
+    color: #fff;
+}
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-body {
+    padding: 45px 52px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.modal .Head {
+    color: #3a3c3e;
+    font-size: 20px;
+    font-family: Roboto_Geo_Arm_Mt;
+    margin-bottom: 60px;
+}
+
+.modal .Head span {
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+}
+
+#CallModal .modal-dialog {
+    width: 420px;
+}
+
+.RequestACall {
+    display: inline-block;
+    width: 100%;
+}
+
+.InputStyle {
+    border: none;
+    border-bottom: solid #302d23 1px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #3a3c3e;
+    font-size: 14px;
+    font-family: RobotoNusx;
+}
+
+textarea.InputStyle {
+    resize: none;
+    height: 100px;
+}
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+.SubmitButton {
+    height: 60px;
+    line-height: 60px;
+    background-color: #f7c326;
+    width: auto;
+    color: #fff;
+    width: 100%;
+    padding-left: 28px;
+    font-size: 14px;
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding-right: 34px;
+    text-decoration: none;
+    transition: 0.5s;
+    border: none;
+    margin-top: 30px;
+    text-align: left;
+    position: relative;
+}
+
+.SubmitButton:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+}
+
+.SubmitButton label {
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+}
+
+.SubmitButton span {
+    width: 18px;
+    height: 7px;
+    background: url(../img/arr1.png) no-repeat;
+    display: inline-block;
+    margin-left: 30px;
+    float: right;
+    margin-top: 26px;
+}
+
+.SubmitButton:hover {
+    background: #15b99b;
+}
+
+.CloseModal {
+width: 10px;
+    height: 10px;
+    background: url(../img/close.png) no-repeat;
+    display: inline-block;
+    float: right;
+    padding: 24px;
+    background-position: center center;
+    cursor: pointer;
+    position: relative;
+    right: -21px;
+    top: -10px; 
+}
+
+.CloseModal:hover {
+    opacity: 0.7;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #3a3c3e;
+    opacity: 0.8;
+    font-family: RobotoNusx;
+    font-size: 12px;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #3a3c3e;
+    opacity: 0.8;
+    font-family: RobotoNusx;
+    font-size: 12px;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #3a3c3e;
+    opacity: 0.8;
+    font-family: RobotoNusx;
+    font-size: 12px;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #3a3c3e;
+    opacity: 0.8;
+    font-family: RobotoNusx;
+    font-size: 12px;
+}
+
+.Height800 {
+    height: 800px !important;
+}
+
+
+/*
+
+.map {
+
+	width:1280px !important;
+
+	max-height:100% !important;
+
+	background-repeat:no-repeat !important;
+
+	background-size:100% auto !important;
+
+	height:680px !important;
+
+} 
+
+.map canvas, .map map {
+
+	width:1280px !important;
+
+	height:680px !important;
+
+}
+
+*/
+
+.HomeBody {}
+
+.PositionRelative {
+    position: relative;
+    height: 0;
+}
+
+.HomeLogo {
+    position: absolute;
+    top: -92px;
+    left: 0;
+    width: 240px;
+    z-index: 99999;
+}
+
+.HomeLogo img {
+    width: 100%;
+}
+
+.BodyClass .HeaderActive {
+    box-shadow: 12px 0 30px rgba(45, 62, 101, 0.4);
+    transition: 0.5s;
+}
+
+.HomeBody .HeaderDiv .Logo {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.BodyClass .HeaderDiv .Logo {
+    opacity: 1;
+    visibility: visible
+}
+
+.BodyClass .HomeLogo {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.HeaderDiv .container {
+    position: relative;
+}
+
+.BackIcon {
+    color: #2c51a3;
+    font-family: RobotoNusxItalic;
+    position: absolute;
+    left: 190px;
+    top: 56px;
+    font-size: 12px;
+    font-weight: bold;
+    background: url('../img/back_1.png') no-repeat;
+    background-position: center left;
+    height: 35px;
+    line-height: 30px;
+    padding-left: 34px;
+    transition: 0.3s
+}
+
+.BackIcon:hover {
+    text-decoration: none;
+    color: #f7c326;
+    background: url('../img/back_2.png') no-repeat;
+    background-position: center left;
+}
+
+.HomeBody .BackIcon {
+    display: none;
+}
+
+.PlanTitle {
+    font-size: 30px;
+    color: #fff;
+    font-family: Roboto_Geo_Arm_Mt;
+    position: relative;
+    top: -30px;
+    left: 0;
+}
+
+.ContactPageDiv {}
+
+.ContactPageDiv .ContentDiv {
+    padding-top: 0;
+    height: 470px;
+}
+
+.ContactPageDiv .Title {
+    position: relative;
+    top: 50px
+}
+
+.ContactBox .Title1 {
+    color: #3a3c3e;
+    font-size: 18px;
+    font-family: Roboto_Geo_Arm_Mt;
+    margin-bottom: 40px;
+}
+
+.ContactBox .Title1 span {
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+}
+
+.ContactBox {
+    background: #fff;
+    width: 800px;
+    height: auto;
+    position: absolute;
+    top: calc(100% + 12px);
+    box-shadow: 0 0 80px rgba(45, 62, 101, 0.2);
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    left: calc(50% - 275px);
+}
+
+.ContactBox .SubmitButton {
+    display: inline-block;
+    width: auto
+}
+
+.MapLink1 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background: transparent;
+    right: 119px;
+    bottom: 503px;
+    display: inline-block;
+}
+
+.MapLink2 {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    background: transparent;
+    right: 702px;
+    bottom: 302px;
+    display: inline-block;
+}
+
+.LeftTextDiv {
+    width: 100px;
+    height: 600px;
+    /* transform: rotate(-90deg); */
+    position: absolute;
+    left: 26px;
+    top: 170px;
+    text-align: center;
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+}
+
+.LeftTextDiv img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.RightTextDiv {
+    width: 80px;
+    height: 600px;
+    /*transform: rotate(90deg);*/
+    position: absolute;
+    right: 32px;
+    top: 180px;
+    text-align: center;
+    color: #fff;
+    font-family: Roboto_Geo_Arm_Mt_Bold;
+    font-size: 22px;
+    color: #3a3c3e;
+}
+
+.RightTextDiv img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.LiWhiteColor li {
+    color: #fff !important;
+}
+
+.LiWhiteColor.ContentDiv {
+    padding-bottom: 80px;
+}
+
+.ParkingImagesDiv {
+    display: none !important;
+}
+
+
+/***********************************************************************/
+
+@media (min-width:992px) {
+    .ApartSoldDiv {}
+    .ApartSoldDiv div {
+        text-transform: uppercase;
+        position: absolute;
+        z-index: 999;
+        font-family: Roboto_Geo_Arm_Mt_Bold;
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        width: 85px;
+        height: 30px;
+        line-height: 33px;
+        text-align: center;
+        color: #2d2b24;
+        background: #fff;
+        display: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    }
+    .ApartSoldDiv div.active {
+        display: block;
+    }
+    /*
+
+		#Sold_1 {top: 324px; right: 98px;} 
+
+		#Sold_2 {top: 324px; right: 223px;}
+
+		#Sold_3 {top: 324px; right: 318px;} 
+
+		#Sold_4 {top: 324px; right: 414px;} 
+
+		#Sold_5 {top: 324px; right: 509px;} 
+
+		#Sold_6 {top: 324px; right: 604px;} 
+
+		#Sold_7 {top: 324px;  right: 699px;} 
+
+		#Sold_8 {top: 324px; right: 795px;} 
+
+		#Sold_9 {top: 324px; right: 890px;} 
+
+		#Sold_10 {top: 324px; right: 985px;} 
+
+		#Sold_11 {top: 324px; right: 1081px;} 
+
+		#Sold_12 {top: 128px; right: 1061px;} 
+
+		#Sold_13 {top: 128px; right: 890px;} 
+
+		#Sold_14 {top: 128px; right: 795px;} 
+
+		#Sold_15 {top: 128px; right: 700px;} 
+
+		#Sold_16 {top: 128px; right: 604px;} 
+
+		#Sold_17 {top: 128px; right: 509px;} 
+
+		#Sold_18 {top: 128px; right: 414px;} 
+
+		#Sold_19 {top: 128px; right: 104px;} 
+
+	*/
+    #Sold_19 {
+        top: 141px;
+        right: 103px;
+    }
+    #Sold_1 {
+        top: 324px;
+        right: 102px;
+    }
+    #Sold_2 {
+        top: 324px;
+        right: 223px;
+    }
+    #Sold_3 {
+        top: 324px;
+        right: 319px;
+    }
+    #Sold_4 {
+        top: 324px;
+        right: 413px;
+    }
+    #Sold_5 {
+        top: 324px;
+        right: 509px;
+    }
+    #Sold_6 {
+        top: 324px;
+        right: 604px;
+    }
+    #Sold_7 {
+        top: 324px;
+        right: 699px;
+    }
+    #Sold_8 {
+        top: 324px;
+        right: 795px;
+    }
+    #Sold_9 {
+        top: 324px;
+        right: 890px;
+    }
+    #Sold_10 {
+        top: 324px;
+        right: 985px;
+    }
+    #Sold_11 {
+        top: 324px;
+        right: 1081px;
+    }
+    #Sold_12 {
+        top: 128px;
+        right: 1062px;
+    }
+    #Sold_13 {
+        top: 128px;
+        right: 890px;
+    }
+    #Sold_14 {
+        top: 128px;
+        right: 795px;
+    }
+    #Sold_15 {
+        top: 128px;
+        right: 699px;
+    }
+    #Sold_16 {
+        top: 128px;
+        right: 605px;
+    }
+    #Sold_17 {
+        top: 128px;
+        right: 508px;
+    }
+    #Sold_18 {
+        top: 128px;
+        right: 414px;
+    }
+    .HortenziaSold #Sold_1 {
+        right: 98px;
+        top: 324px;
+    }
+    .HortenziaSold #Sold_2 {
+        top: 324px;
+        right: 414px;
+    }
+    .HortenziaSold #Sold_3 {
+        top: 324px;
+        right: 509px;
+    }
+    .HortenziaSold #Sold_4 {
+        top: 324px;
+        right: 605px;
+    }
+    .HortenziaSold #Sold_5 {
+        top: 324px;
+        right: 700px;
+    }
+    .HortenziaSold #Sold_6 {
+        top: 324px;
+        right: 795px;
+    }
+    .HortenziaSold #Sold_7 {
+        top: 324px;
+        right: 890px;
+    }
+    .HortenziaSold #Sold_8 {
+        top: 324px;
+        right: 1060px;
+    }
+    .HortenziaSold #Sold_9 {
+        top: 138px;
+        right: 1081px;
+    }
+    .HortenziaSold #Sold_10 {
+        top: 138px;
+        right: 985px;
+    }
+    .HortenziaSold #Sold_11 {
+        top: 138px;
+        right: 890px;
+    }
+    .HortenziaSold #Sold_12 {
+        top: 138px;
+        right: 795px;
+    }
+    .HortenziaSold #Sold_13 {
+        top: 138px;
+        right: 699px;
+    }
+    .HortenziaSold #Sold_14 {
+        top: 138px;
+        right: 605px;
+    }
+    .HortenziaSold #Sold_15 {
+        top: 138px;
+        right: 509px;
+    }
+    .HortenziaSold #Sold_16 {
+        top: 138px;
+        right: 414px;
+    }
+    .HortenziaSold #Sold_17 {
+        top: 138px;
+        right: 319px;
+    }
+    .HortenziaSold #Sold_18 {
+        top: 138px;
+        right: 223px;
+    }
+    .HortenziaSold #Sold_19 {
+        top: 138px;
+        right: 104px;
+    }
+    @media (min-width:1680px) {
+        #Sold_19 {
+            top: 141px;
+            right: 175px;
+        }
+        #Sold_1 {
+            top: 324px;
+            right: 176px;
+        }
+        #Sold_2 {
+            top: 324px;
+            right: 297px;
+        }
+        #Sold_3 {
+            top: 324px;
+            right: 393px;
+        }
+        #Sold_4 {
+            top: 324px;
+            right: 489px;
+        }
+        #Sold_5 {
+            top: 324px;
+            right: 583px;
+        }
+        #Sold_6 {
+            top: 324px;
+            right: 680px;
+        }
+        #Sold_7 {
+            top: 324px;
+            right: 774px;
+        }
+        #Sold_8 {
+            top: 324px;
+            right: 870px;
+        }
+        #Sold_9 {
+            top: 324px;
+            right: 965px;
+        }
+        #Sold_10 {
+            top: 324px;
+            right: 1060px;
+        }
+        #Sold_11 {
+            top: 324px;
+            right: 1156px;
+        }
+        #Sold_12 {
+            top: 128px;
+            right: 1136px;
+        }
+        #Sold_13 {
+            top: 128px;
+            right: 965px;
+        }
+        #Sold_14 {
+            top: 128px;
+            right: 870px;
+        }
+        #Sold_15 {
+            top: 128px;
+            right: 775px;
+        }
+        #Sold_16 {
+            top: 128px;
+            right: 679px;
+        }
+        #Sold_17 {
+            top: 128px;
+            right: 584px;
+        }
+        #Sold_18 {
+            top: 128px;
+            right: 489px;
+        }
+        .HortenziaSold #Sold_1 {
+            top: 324px;
+            right: 180px;
+        }
+        .HortenziaSold #Sold_2 {
+            top: 324px;
+            right: 489px;
+        }
+        .HortenziaSold #Sold_3 {
+            top: 324px;
+            right: 584px;
+        }
+        .HortenziaSold #Sold_4 {
+            top: 324px;
+            right: 679px;
+        }
+        .HortenziaSold #Sold_5 {
+            top: 324px;
+            right: 774px;
+        }
+        .HortenziaSold #Sold_6 {
+            top: 324px;
+            right: 870px;
+        }
+        .HortenziaSold #Sold_7 {
+            top: 324px;
+            right: 964px;
+        }
+        .HortenziaSold #Sold_8 {
+            top: 324px;
+            right: 1134px;
+        }
+        .HortenziaSold #Sold_9 {
+            top: 138px;
+            right: 1156px;
+        }
+        .HortenziaSold #Sold_10 {
+            top: 138px;
+            right: 1060px;
+        }
+        .HortenziaSold #Sold_11 {
+            top: 138px;
+            right: 964px;
+        }
+        .HortenziaSold #Sold_12 {
+            top: 138px;
+            right: 870px;
+        }
+        .HortenziaSold #Sold_13 {
+            top: 138px;
+            right: 774px;
+        }
+        .HortenziaSold #Sold_14 {
+            top: 138px;
+            right: 679px;
+        }
+        .HortenziaSold #Sold_15 {
+            top: 138px;
+            right: 584px;
+        }
+        .HortenziaSold #Sold_16 {
+            top: 138px;
+            right: 489px;
+        }
+        .HortenziaSold #Sold_17 {
+            top: 138px;
+            right: 393px;
+        }
+        .HortenziaSold #Sold_18 {
+            top: 138px;
+            right: 298px;
+        }
+        .HortenziaSold #Sold_19 {
+            top: 138px;
+            right: 177px;
+        }
+    }
+}
+
+.tooltip {
+    font-family: RobotoNusx;
+    font-size: 12px;
+}
+
+.ml-form-embedWrapper.embedForm {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+
+/*.gfl8-80{
+	transform: rotate(180deg) !important;
+}*/

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>https://mziurigardens.ge/ge/project</loc>
+<xhtml:link rel="alternate" hreflang="ge" href="https://mziurigardens.ge/ge/project" />
+<xhtml:link rel="alternate" hreflang="en" href="https://mziurigardens.ge/en/project" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://mziurigardens.ge/ru/project" />
+<lastmod>2019-03-27</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://mziurigardens.ge/ge/contact</loc>
+<xhtml:link rel="alternate" hreflang="ge" href="https://mziurigardens.ge/ge/contact" />
+<xhtml:link rel="alternate" hreflang="en" href="https://mziurigardens.ge/en/contact" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://mziurigardens.ge/ru/contact" />
+<lastmod>2019-03-27</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://mziurigardens.ge/ge/about-us</loc>
+<xhtml:link rel="alternate" hreflang="ge" href="https://mziurigardens.ge/ge/about-us" />
+<xhtml:link rel="alternate" hreflang="en" href="https://mziurigardens.ge/en/about-us" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://mziurigardens.ge/ru/about-us" />
+<lastmod>2019-03-27</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
+</url>
+</urlset>
